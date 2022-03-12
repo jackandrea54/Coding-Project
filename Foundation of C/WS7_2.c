@@ -58,12 +58,23 @@ void removeEmp(char code[][9], char name[][21],double salary[], double allow[], 
 }
 
 void print_descend(char code[][9], char name[][21],double salary[], double allow[], int n ){
-	int i;
-	double sum[100];
-	for(i=0;i<n;i++)
+	int i,j, index[100],temp;
+	double sum[100];	
+	for(i=0;i<n;i++){
 		sum[i] = salary[i] + allow[i];
+		index[i] = i;
+	}		
 	printf("    Code|                Name|              Salary|           Allowance\n");
-	
+	for(i=0;i < n - 1;i++)
+		for(j = n - 1; j > i; j--){
+			if(sum[index[j]]>sum[index[j-1]]){
+				temp = index[j];
+				index[j] = index[j-1];
+				index[j-1] = temp;
+			}
+		}	
+	for(i=0;i < n;i++)
+		printf("%8s|%20s|%20.3lf|%20.3lf\n",code[index[i]],name[index[i]],salary[index[i]],allow[index[i]]);
 }
 
 void print_menu(){
