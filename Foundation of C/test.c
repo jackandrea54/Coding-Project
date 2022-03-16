@@ -1,9 +1,10 @@
 #include<stdio.h> 
+#include<stdlib.h>
 int main()  
 { 
- int i=0; 
- printf ("%d %d %d\n",++i,i++,i); 
- printf("i:%d\n",i++);
- printf("i:%d\n",++i);
- return 0; 
+	float a;
+	char c;
+	scanf("%f%c",&a,&c);
+	printf("Float: %f\nchar: %c",a,c);
+	return 0;
 } 
