@@ -1,5 +1,5 @@
 /*
-Assignment 2 - IIncome tax bill and summary report with Files
+Assignment 2 - Income tax bill and summary report with Files
 Class ID : SE1716
 Student ID : HE172579
 Student Name : Nguyen Dinh Nghia
