@@ -1,10 +1,10 @@
-#include<stdio.h> 
-#include<stdlib.h>
-int main()  
-{ 
-	float a;
-	char c;
-	scanf("%f%c",&a,&c);
-	printf("Float: %f\nchar: %c",a,c);
-	return 0;
-} 
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+	char *p = 0;
+	*p = 'a';
+	printf("%c",*p);
+	
+   return(0);
+}
