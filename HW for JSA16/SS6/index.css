@@ -1,0 +1,48 @@
+legend{
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+fieldset label{
+    display: block;
+    text-align: center;
+
+    margin: auto;
+}
+fieldset {
+    text-align: center;
+    margin: auto;
+}
+
+
+
+#items_table h2{
+    margin-top: 3rem;
+    border-top: 0.2em solid black;
+
+    display: flex;
+    justify-content: center;
+}
+#list{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+
+}
+
+tr th{
+    border: 2px solid black;
+    
+}
+
+.delete{
+    display: flex;
+    justify-content: center;
+}

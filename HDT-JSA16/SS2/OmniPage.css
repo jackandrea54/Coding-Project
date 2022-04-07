@@ -1,0 +1,236 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* không trang trí chữ */
+}
+
+
+/* Những phần style chung */
+.max-width {
+  max-width: 1300px;
+  /* chiều ngang <= 1300px */
+  padding: 50px;
+  margin: 0px auto;
+}
+
+/* Style thanh orange-bar */
+.max-width .orange-bar {
+  width: 100px;
+  height: 2px;
+  background-color: orange;
+  margin-top: 30px;
+}
+
+.max-width .title {
+  font-size: 40px;
+  text-align: center;
+}
+
+/* Hết phần style chung */
+
+
+/* Home-menu */
+
+.home-menu {
+  background-image: url(./image/hero.jpg);
+  height: 700px;
+  background-size: cover;
+
+  /*phần 2: */
+  position: relative;
+  /* Đánh dấu lại vị trí của thẻ */
+  z-index: 1;
+
+}
+
+nav {
+  margin-left: 10%;
+}
+
+.home-menu nav .max-width {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav .menu a {
+  position: relative;
+  display: inline-block;
+  padding: 0px 30px;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: -.5px;
+  text-decoration: none;
+}
+
+nav .menu a:hover {
+  color: orange;
+}
+
+/* style logo */
+.max-width .logo img {
+  height: 80px;
+  width: 80px;
+
+}
+
+.max-width .menu {
+  width: 800px;
+  line-height: 80px;
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+
+/* phần 2: opacity */
+.opacity-menu {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+
+  position: absolute;
+  z-index: 2;
+}
+
+.max-width .logo {
+  z-index: 3;
+}
+
+nav .menu a {
+  z-index: 3;
+}
+
+
+.content-menu {
+  width: 700px;
+  height: 200px;
+  margin-left: 10%;
+  padding: 50px;
+
+  margin-top: 8%;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
+
+.content-menu .text p {
+  font-size: 50px;
+  font-weight: 150;
+  line-height: 60px;
+}
+
+.content-menu .multi-button {
+  width: 320px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-menu .multi-button button {
+  width: 150px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background: none;
+  border: 1px solid orange;
+  border-radius: 30px;
+}
+
+#button1 {
+  background-color: orange;
+  color: #fff;
+
+}
+
+#button2 {
+  color: orange;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+
+/* Home content */
+.home-content .max-width {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-content .max-width .about {
+  margin-top: 30px;
+}
+
+.max-width .about p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+/* Box content */
+.home-content .max-width .content-boxes {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-boxes .content-box {
+  width: 250px;
+  height: fit-content;
+}
+
+.content-boxes .content-box i {
+  color: orange;
+  font-size: 50px;
+  line-height: 70px;
+}
+
+.content-boxes .content-box .title {
+  text-align: left;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.content-boxes .content-box p {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.home-banner{
+  width: 100%;
+  margin-top: 30px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+ .banner-image{
+  width: 25%;
+  height: 25%;
+  z-index: 1;
+}
+
+.banner-image img{
+  max-width: 100%;
+  height: auto;
+  border: none;
+  display: block;
+  z-index: 1;
+  
+}
