@@ -1,5 +1,7 @@
 package datatype;
 
+import java.util.Scanner; // Mo kho, muon do choi, muon hang, muon thu vien, do co san
+// ~~~ #include <stdio.h> 
 /**
  *
  * @author ADMIN
@@ -7,26 +9,48 @@ package datatype;
 public class VarNFun {
 
     public static void main(String[] args) {
-        printIntegerList();
+        int x;
+        x = getAPositiveInt();
+        printIntegerList(x);
 //        playWithBooleans();
 //        playWithCharacters();
 //        playWithDoubles();
 //        playWithInteger();
 //        playWithVariables();
     }
-   
+
+    public static int getAPositiveInt(){
+        int n;
+        System.out.print("Input a positive integer: ");
+        Scanner banPhimCuaTui = new Scanner(System.in);
+        n = banPhimCuaTui.nextInt();
+        
+        return n; // chinh la gan gia tri cho ten ham
+    }   
     
     
     
+    //Viet ham in ra so tu nhien tu 1-n
+    //Hien tuong trong 1 class bat ki nao do, ma co nhieu ham trung ten nhau
+    //va khac phan tham so/dau vao, nhung khac tren data type 
+    //thi duoc goi la: OVERLOADING, qua tai ham
+    public static void printIntegerList(int n) {
+        System.out.println("The list of n first integers");
+        for (int i = 1; i <= n; i++) {
+            //System.out.print(i + " ");
+            System.out.printf("%d ", i);
+        }
+    }
+
     //Viet ham in ra so tu nhien tu 1-100
     public static void printIntegerList() {
         System.out.println("The list of 100 first integers");
         for (int i = 1; i <= 100; i++) {
             //System.out.print(i + " ");
-            System.out.printf("%d ",i);
+            System.out.printf("%d ", i);
         }
     }
-    
+
     // Menh de so sanh, bieu thuc so sanh, cau phat bieu se co 2 trang thai dung sai 
     // 5 > 4, dung; 4 > 5, sai
     //C: dung quy uoc la 1, >0, sai quy uoc la 0
@@ -42,8 +66,6 @@ public class VarNFun {
         System.out.println("Luon co hy vong");
     }
 
-    
-    
     //char trong java  dung 2 bytes bang Unicode, luu cac loai ki tu tren the gioi
     public static void playWithCharacters() {
         char unit = '$';

@@ -36,7 +36,7 @@ public class OOP {
 //        rec.setHeight(4);
 //        System.out.println("w = " + rec.getWidth() + ", h = " + rec.getHeight() + ", perimeter = " + rec.getPerimeter(rec.getWidth(), rec.getHeight()));
 
-        System.out.println("Nhap 1 so tu 1-10: ");
+        System.out.print("Nhap 1 so tu 1-10: ");
         Scanner input = new Scanner(System.in);
         choice = input.nextInt();
         Student arrObject[] = new Student[choice];
@@ -56,12 +56,12 @@ public class OOP {
             System.out.printf("-------------------------------\n\n");
         }
         
-        
+        findOldest(arrObject);
 //        ExsltStrings.split(birthday, '-')
 
     }
     
-    public void findOldest(Student arrObject[]){
+    public static void findOldest(Student arrObject[]){
         int birthDate[] = new int[choice];
         int birthMonth[] = new int[choice];
         int birthYear[] = new int[choice];
@@ -72,7 +72,9 @@ public class OOP {
             birthMonth[i] = Integer.parseInt(birthparts[1]);
             birthYear[i] = Integer.parseInt(birthparts[2]);
         }
-        
+        for (int i = 0; i < choice; i++) {
+            System.out.println("Ngay thang nam sinh: " + birthDate[i] + "-" + birthMonth[i] + "-" + birthYear[i]);
+        }
         
     }
 
