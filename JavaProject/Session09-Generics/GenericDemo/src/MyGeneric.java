@@ -3,17 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package main;
 
-public class ExceptionCheck{
-//    public static int checkInteger(){
-//        
-//        
-//        
-//    }
-}
 /**
  *
  * @author ADMIN
  */
+public class MyGeneric<T> {
+    T obj;
+    public void add(T obj){
+        this.obj = obj;
+    }
 
+    public T get() {
+        return obj;
+    }
+    
+    
+}

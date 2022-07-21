@@ -9,7 +9,7 @@ package arraylistdemo;
  *
  * @author ADMIN
  */
-public class Student {
+public class Student implements Comparable<Student>{
     private String firstName;
     private String lastName;
     private int age;
@@ -49,5 +49,9 @@ public class Student {
         return "Student{" + "firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + '}';
     }
     
+    @Override
+    public int compareTo(Student o){
+        return getLastName().compareTo(o.getLastName());
+    }
     
 }
