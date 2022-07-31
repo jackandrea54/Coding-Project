@@ -135,12 +135,14 @@ public class EmpList extends Vector<Employee>{
     
     // Print out the list
     public void print() {
-        if (this.size() == 0) {
+        if (this.isEmpty()) {
             System.out.println("Empty LIST!");
             return;
         }
         Collections.sort(this);
         System.out.println("\nEMPLOYEE LIST\n---------------------------------");
-        for (Employee x : this) x.print();
+        this.forEach((x) -> {
+            x.print();
+        });
     }
 }

@@ -55,7 +55,7 @@ public class FileDemo {
             //Doc Folder
             File f4 = new File("src\\TestFolder");
             String[] L = f4.list();
-            System.out.println("Noi dung thu muc: ");
+            System.out.println("Noi dung thu muc "+ f4.getName() + ":");
             for (int i = 0; i < L.length; i++) {
                 System.out.println(L[i]);
             }
