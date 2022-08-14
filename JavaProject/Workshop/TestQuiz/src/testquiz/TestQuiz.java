@@ -14,14 +14,28 @@ import java.util.*;
  *
  * @author ADMIN
  */
+class A{
+    int x = 2;
+    public void amed(){
+        System.out.println("A");
+    }
+}
+class b extends A{
+    int x = 3;
+    public void amed2(){
+        System.out.println("B");
+    }
+}
+
 public class TestQuiz {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args){
-     double x = 3.14;  
-    int y = (int) Math.abs(x);
-    System.out.print(y);
+        A a2 = new b();
+        System.out.println(a2.x);
+        String s = "Hi";
+        s+= 'c';
     }
 }
