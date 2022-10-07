@@ -79,6 +79,7 @@ public class BSTree {
                 par.left = new Node(x);
             }
         }
+        balance(root, root);
     }
 
     public void preOrder(Node p) {
@@ -127,6 +128,7 @@ public class BSTree {
                 myQueue.enqueue(q.right);
             }
         }
+        System.out.println("");
     }
 
     public void remove(int x) {
@@ -192,6 +194,7 @@ public class BSTree {
 //                par_k.left = k.right;
 //            }
         }
+        balance(root, root);
     }
 
     public void removeByMerge(int x) {
@@ -280,14 +283,6 @@ public class BSTree {
         }
     }
 
-    public int heightOfNode(Node p) {
-        if (p == null) {
-            return 0;
-        } else {
-            return height(p.inf);
-        }
-    }
-
     public void readFile(String fname) throws FileNotFoundException, IOException {
         File f = new File(fname);
         if (!f.isFile()) {
@@ -303,7 +298,7 @@ public class BSTree {
         }
     }
 
-    public Node right_Rotate(Node p) {
+    private Node right_Rotate(Node p) {
         if (p == null || p.left == null) {
             return p;
         }
@@ -313,7 +308,7 @@ public class BSTree {
         return newroot;
     }
 
-    public Node left_Rotate(Node p) {
+    private Node left_Rotate(Node p) {
         if (p == null || p.right == null) {
             return p;
         }
@@ -323,43 +318,53 @@ public class BSTree {
         return newroot;
     }
 
-    public Node left_right_Rotate(Node p) {
+    private Node left_right_Rotate(Node p) {
         p.left = left_Rotate(p.left);
         p = right_Rotate(p);
         return p;
     }
 
-    public Node right_left_Rotate(Node p) {
+    private Node right_left_Rotate(Node p) {
         p.right = right_Rotate(p.right);
         p = left_Rotate(p);
         return p;
     }
-
-    /**
-     * Chua lam duoc cai nay
-     *
-     */
-    public Node rotate(Node p) {
-        if(Math.abs(heightOfNode(p.left) - heightOfNode(p.right)) > 1) {
-//            System.out.println("This need to change: " + p.inf);
-            if (heightOfNode(p.left) > heightOfNode(p.right)) {
-                if (p.left.right != null) {
-                    p = left_right_Rotate(p);
-                } else {
-                    p = right_Rotate(p);
-                }
-            } else {
-                if (p.right.left != null) {
-                    p = right_left_Rotate(p);
-                } else {
-                    p = left_Rotate(p);
-                }
+    
+    private int heightOfNode(Node p) {
+        if (p == null) {
+            return 0;
+        } else {
+            return height(p.inf);
+        }
+    }
+    
+    private int factor(Node p){
+        int fact = heightOfNode(p.right) - heightOfNode(p.left);
+        return fact;
+    }
+    
+    private Node rotate(Node p) {
+        if (factor(p) == -2) { //Lech trai
+            //Neu node p va node con trai cua no cung dau
+            if ((factor(p.left)) == -1) { // lech trai - trai
+                p = right_Rotate(p);
+            } else { //Lech trai - phai
+                p = left_right_Rotate(p);
+            }
+        } else if (factor(p) == 2) { //Lech phai
+            //Neu node p va node con phai cua no cung dau
+            if (factor(p.right) == 1) { //Lech phai - phai
+                p = left_Rotate(p);
+            } else { //Lech phai - trai
+                p = right_left_Rotate(p);
             }
         }
+
 //        breadth(p);
         return p;
     }
 
+    //Balance dung moi khi insert mot node moi
     public void balance(Node p, Node par) {
         if (p == null) {
             return;
@@ -367,7 +372,6 @@ public class BSTree {
 
         balance(p.left, p);
         balance(p.right, p);
-//        System.out.println("Before rotate: " + p.inf);
         if (p == par.left) {
             par.left = rotate(p);
         } else if (p == par.right) {
@@ -375,7 +379,6 @@ public class BSTree {
         } else {
             root = rotate(p);
         }
-//        System.out.println("After rotate: " + p.inf);
     }
 }
 

@@ -65,7 +65,7 @@ public class Main {
                     break;
                 case 4:
                     System.out.println("---- All students who can attend PE exam ----");
-                    list.takeExam();
+                    list.listPEStudent();
                     break;
                 case 5:
                     break;

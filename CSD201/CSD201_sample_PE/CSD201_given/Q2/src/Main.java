@@ -11,6 +11,7 @@ class Main {
     System.out.println(" 2. Test f2 (1 mark)");
     System.out.println(" 3. Test f3 (1 mark)");
     System.out.println(" 4. Test f4 (1 mark)");
+    System.out.println(" 5. Test f5 (1 mark)");
     System.out.print("    Your selection (1 -> 4): ");
     choice = sca.nextInt();
     sca.nextLine();
@@ -31,7 +32,10 @@ class Main {
                System.out.println("Your output:");
                Lib.viewFile("f4.txt");
                break;
-       default: System.out.println("Wrong selection");
+       case 5: t.f5();
+               Lib.viewFile("f4.txt");
+               break;
+       default: System.out.println("Your output:");
       }
      System.out.println();
    }      

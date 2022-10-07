@@ -159,26 +159,26 @@ class BSTree {
 
     public void removeByCopying(Node p) {
         //Tim duoc node p chua x va node cha cua p
-            //Co ca con ben trai lan phai
-            //Phuong phap 1: Delete by Copying
-            //Cach 1: Tim Max cua cay con trai 
-            Node k = p.left;
-            Node par_k = p;
-            while (k.right != null) {
-                par_k = k;
-                k = k.right;
-            }
-            p.info.price = k.info.price;
-            p.info.owner = k.info.owner;
-            if (par_k == p) {
-                p.left = k.left;
-            } else {
-                par_k.right = k.left;
-            }
-        
+        //Co ca con ben trai lan phai
+        //Phuong phap 1: Delete by Copying
+        //Cach 1: Tim Max cua cay con trai 
+        Node k = p.left;
+        Node par_k = p;
+        while (k.right != null) {
+            par_k = k;
+            k = k.right;
+        }
+        p.info.price = k.info.price;
+        p.info.owner = k.info.owner;
+        if (par_k == p) {
+            p.left = k.left;
+        } else {
+            par_k.right = k.left;
+        }
+
     }
-    
-    public void findAndRotate(int x){
+
+    public void findAndRightRotate(int x) {
         if (isEmpty()) {
             return;
         }
@@ -200,7 +200,26 @@ class BSTree {
             }
         }
     }
-    
+
+    public Node findPostOrder(Node p) {
+        if (p == null) {
+            return null;
+        }
+        Node pLeft = findPostOrder(p.left);
+        if (pLeft != null) {
+            return pLeft;
+        }
+        Node pRight = findPostOrder(p.right);
+        if (pRight != null) {
+            return pRight;
+        }
+        if (p.left != null && p.info.price < 7) {
+            return p;
+        } else {
+            return null;
+        }
+    }
+
     public void right_Rotate(int x) {
         Node p = root, par = p;
         while (p != null && p.info.price != x) {
@@ -215,15 +234,17 @@ class BSTree {
         Node newroot = p.left;
         p.left = newroot.right;
         newroot.right = p;
-        if (p == par.left) {
-            par.left = newroot;
-        }else if (p == par.right){
-            par.right = newroot;
+        if (p == root) {
+            root = newroot;
+        } else {
+            if (p == par.left) {
+                par.left = newroot;
+            } else if (p == par.right) {
+                par.right = newroot;
+            }
         }
-        
-        
+
     }
-    
 
     void f1() throws Exception {/* You do not need to edit this function. Your task is to complete insert  function
         above only.
@@ -307,7 +328,34 @@ class BSTree {
         /*You must keep statements pre-given in this function.
        Your task is to insert statements here, just after this comment,
        to complete the question in the exam paper.*/
-        findAndRotate(7);
+        findAndRightRotate(7);
+        //------------------------------------------------------------------------------------
+        breadth(root, f);
+        f.writeBytes("\r\n");
+        f.close();
+    }
+
+    //=============================================================
+    void f5() throws Exception {
+        clear();
+        loadData(10);
+        String fname = "f4.txt";
+        File g123 = new File(fname);
+        if (g123.exists()) {
+            g123.delete();
+        }
+        RandomAccessFile f = new RandomAccessFile(fname, "rw");
+        breadth(root, f);
+        f.writeBytes("\r\n");
+        //------------------------------------------------------------------------------------
+        /*You must keep statements pre-given in this function.
+       Your task is to insert statements here, just after this comment,
+       to complete the question in the exam paper.*/
+        Node p = findPostOrder(root);
+        if (p != null) {
+            right_Rotate(p.info.price);
+        }
+
         //------------------------------------------------------------------------------------
         breadth(root, f);
         f.writeBytes("\r\n");

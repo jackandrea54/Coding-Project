@@ -93,20 +93,23 @@ public class listStudent {
         }
     }
     
-     public void takeExam(){
-      //list all student can take PE   
-         if (isEmpty()) {
-             System.out.println("The list is empty");
-         }
-         else{
-             Node p = head;
-             while (p != null) {                
-                 if (p.inf.As1 > 0 && p.inf.As2 > 0 && p.inf.Pt1 > 0 && p.inf.Pt2 > 0 && p.inf.AT <= 20.0) {
-                     System.out.println(p.toSring());
-                 }
+    public void listPEStudent(){
+        //list all student can take PE   
+        if (isEmpty()) {
+            System.out.println("The list is empty");
+        } else {
+            Node p = head;
+            while (p != null) {
+                if (p.inf.As1 > 0 && p.inf.As2 > 0 && p.inf.Pt1 > 0 && p.inf.Pt2 > 0 && p.inf.AT <= 20.0) {
+                    System.out.println(p.toSring());
+                }
                 p = p.next;
             }
-         }
+        }
+    }
+    
+     public void takeExam(){
+      
     }
      
      public void clear(){

@@ -14,23 +14,28 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws InterruptedException, IOException {
         BSTree tree = new BSTree();
-        tree.insert(30);
-        tree.insert(10);
-        tree.insert(35);
-        tree.insert(5);
-        tree.insert(20);
-        tree.insert(25);
-        tree.insert(15);
-        
+        tree.insert(55);
+        tree.insert(50);
+        tree.insert(60);
+        tree.insert(40);
+        tree.insert(52);
+        tree.insert(57);
+        tree.insert(70);
+        tree.insert(53);
+        tree.insert(54);
 //      ----------------
-        System.out.println("BS Tree before rotate:");
-        tree.breadth(tree.root);
-        System.out.println("");
-        System.out.println("BS Tree after rotate:");
+//        System.out.println("BS Tree before rotate:");
+//        tree.breadth(tree.root);
+//        System.out.println("");
+//        System.out.println("BS Tree after rotate:");
 //        tree.root = tree.left_right_Rotate(tree.root);
 //        tree.insert(3);
 //        tree.insert(2);
-        tree.balance(tree.root, tree.root);
+        System.out.println("Tree before:");
+        tree.breadth(tree.root);
+        int x = 40;
+        tree.remove(x);
+        System.out.println("Tree after remove " + x + " then balance:");
         tree.breadth(tree.root);
         
 //        tree.insert(9);
