@@ -1,6 +1,6 @@
 ﻿create database FALL2022
-ON PRIMARY ( name = fall2022, filename = 'D:\Coding Project\SQLStudy\DBI202.mdf', size = 10mb, maxsize = 20mb, filegrowth = 2mb )
-log on ( name = fall2022log, filename = 'D:\Coding Project\SQLStudy\DBI202_log.mdf', size = 5mb, maxsize = 7mb, filegrowth = 1mb )
+ON PRIMARY ( name = fall2022, filename = 'D:\Coding Project\SQLStudy\DBI202.mdf', size = 1mb, maxsize = 5mb, filegrowth = 1mb )
+log on ( name = fall2022log, filename = 'D:\Coding Project\SQLStudy\DBI202_log.mdf', size = 1mb, maxsize = 2mb, filegrowth = 1mb )
 
 
 drop database FALL2022 
