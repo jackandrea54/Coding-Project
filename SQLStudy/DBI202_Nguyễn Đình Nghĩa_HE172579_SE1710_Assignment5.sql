@@ -39,23 +39,34 @@ insert into StudentTest values (1, 1, '2020-4-19',8),
 							   (3, 3, '2020-4-22',8),	
 							   (3, 1, '2020-4-21',1)				 
 
+select ID, TestID, FORMAT(DateTest, 'dd/M/yyyy') as Date, Mark from StudentTest
 -- Thu tu Xoa Bang: StudentTest -> Test -> Student
 drop table StudentTest
 drop table Test
 drop table Student
 ----- Buoc 3: Tra loi cau hoi -----
 --- Cau 1: Đưa ra điểm của học viên dưới dạng 4 chữ số, sau dấu phẩy 2 chữ số ---
-select Student.ID, CONVERT(numeric(4,2), Mark) AS Mark from Student INNER JOIN StudentTest on Student.ID = StudentTest.ID
+select ID, CONVERT(numeric(4,2), Mark) AS Mark from StudentTest 
 -- Cau 2: Hiển thị học viên có tuổi >25 ---
 select * from Student where Age > 25
 -- Cau 3: Hiển thị danh sách học viên có tuổi là 20 hoặc 25 --
 select * from Student where Age = 20 or Age = 25
+
+select * from Student where Age in (20,25)
+
 -- Cau 4: Hiển thị những môn học có tên là ký tự ‘s’ --
 select * from Test where (Tname COLLATE Latin1_General_BIN like '%s%') -- COLLATE Latin1_General_BIN la de check case-sensitive ----
+
+select * from Test where CHARINDEX('s',Tname) > 0
+
 -- Cau 5: Hiển thị danh sách học viên có điểm >5 ---
 select Student.ID, Name, Age, TestID, Mark from Student INNER JOIN StudentTest on Student.ID = StudentTest.ID where Mark > 5
+
+
 -- Cau 6: Thêm cột Status (Varchar (10)) mặc định có tên là ‘Young’ vào bảng Student --
 ALTER TABLE Student
 ADD [Status] [varchar](10) not null DEFAULT 'Young';
+
 -- Cau 7: Đưa ra điểm trung bình của các học viên --
-select ID, AVG(Mark) as AverageMark from StudentTest GROUP BY ID
+with DiemTB as (select ID, AVG(StudentTest.Mark) as AverageMark from StudentTest GROUP BY ID)
+select Student.ID, Name, [AverageMark] from Student inner join DiemTB on Student.ID = DiemTB.ID

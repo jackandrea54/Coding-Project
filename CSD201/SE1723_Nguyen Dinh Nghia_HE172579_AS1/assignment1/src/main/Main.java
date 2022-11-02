@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        System.out.println("infomation: Yêu cầu điền thông tin của mình vào đây");
+        System.out.println("infomation: Nguyễn Đình Nghĩa - HE172579");
         Menu mnu = new Menu();
         Scanner scan = new Scanner(System.in);
         //readfile.viewFile("data.txt");

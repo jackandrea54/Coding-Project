@@ -19,7 +19,7 @@ class Graph {
         a = new int[20][20];
         n = 0;
     }
-    
+
     void loadData(int k) //do not edit this function
     {
         RandomAccessFile f;
@@ -47,10 +47,10 @@ class Graph {
             f.close();
         } catch (Exception e) {
         }
-        
+
     }
-    
-    void dispAdj() {
+
+    void dispAdj(int[][] a) {
         int i, j;
         for (i = 0; i < n; i++) {
             System.out.println();
@@ -59,11 +59,11 @@ class Graph {
             }
         }
     }
-    
+
     void fvisit(int i, RandomAccessFile f) throws Exception {
         f.writeBytes(" " + v[i]);
     }
-    
+
     void breadth(boolean[] en, int i, RandomAccessFile f) throws Exception {
         Queue q = new Queue();
         int r, j;
@@ -80,7 +80,7 @@ class Graph {
             }
         }
     }
-    
+
     void breadth(int k, RandomAccessFile f) throws Exception {
         boolean[] en = new boolean[20];
         int i;
@@ -94,24 +94,13 @@ class Graph {
             }
         }
     }
-    
+
     void depth(boolean[] visited, int k, RandomAccessFile f) throws Exception {
         fvisit(k, f);
         visited[k] = true;
         for (int i = 0; i < n; i++) {
             if (!visited[i] && a[k][i] > 0) {
                 depth(visited, i, f);
-            }
-        }
-    }
-    
-    void depth2(boolean[] visited, int k, RandomAccessFile f) throws Exception {
-        fvisit(k, f);
-        f.writeBytes("(" + deg(k) + ")");
-        visited[k] = true;
-        for (int i = 0; i < n; i++) {
-            if (!visited[i] && a[k][i] > 0) {
-                depth2(visited, i, f);
             }
         }
     }
@@ -129,7 +118,49 @@ class Graph {
             }
         }
     }
+
+    int deg(int i) {
+        int s, j;
+        s = 0;
+        for (j = 0; j < n; j++) {
+            s += a[i][j];
+        }
+        s += a[i][i];
+        return (s);
+    }
     
+    public ArrayList isEulerPath(){
+        ArrayList lt = new ArrayList();
+        loadData(20);
+        int SUM=0;
+        
+        for (int i = 0; i < n; i++) {
+            SUM=0;
+            for (int j = 0; j < n; j++) {
+                SUM+=a[i][j];
+            }
+            if (SUM%2==1) {
+                lt.add(i);                 
+            }   
+        }         
+         return lt;
+    }
+    
+
+//===========================================================================
+//(2)===YOU CAN EDIT OR EVEN ADD NEW FUNCTIONS IN THE FOLLOWING PART========
+//===========================================================================
+    void depth2(boolean[] visited, int k, RandomAccessFile f) throws Exception {
+        fvisit(k, f);
+        f.writeBytes("(" + deg(k) + ")");
+        visited[k] = true;
+        for (int i = 0; i < n; i++) {
+            if (!visited[i] && a[k][i] > 0) {
+                depth2(visited, i, f);
+            }
+        }
+    }
+
     void depth2(int k, RandomAccessFile f) throws Exception {
         boolean[] visited = new boolean[20];
         int i;
@@ -143,7 +174,29 @@ class Graph {
             }
         }
     }
-    
+
+    void f1() throws Exception {
+        loadData(1);
+        String fname = "f1.txt";
+        File g123 = new File(fname);
+        if (g123.exists()) {
+            g123.delete();
+        }
+        RandomAccessFile f = new RandomAccessFile(fname, "rw");
+        depth(1, f);
+        f.writeBytes("\r\n");
+        //-------------------------------------------------------------------------------------
+        /*You must keep statements pre-given in this function.
+       Your task is to insert statements here, just after this comment,
+       to complete the question in the exam paper.*/
+        depth2(1, f);
+
+        //-------------------------------------------------------------------------------------
+        f.writeBytes("\r\n");
+        f.close();
+    }
+//===========================================================================
+
     public void dijkstra(int from, int to, RandomAccessFile f) throws IOException {
         int distance[] = new int[n];
         boolean[] visited = new boolean[n];
@@ -160,18 +213,18 @@ class Graph {
         visited[sel] = true;
 //        path[0] = from;
         for (int t = 0; t < n; t++) {
-            
+
             for (int i = 0; i < n; i++) {
                 //cac dinh lien ke cua from
                 if (!visited[i] && (a[sel][i] + distance[sel] < distance[i])) {
                     distance[i] = a[sel][i] + distance[sel];
-                    path[i]=sel;
+                    path[i] = sel;
                 }
 
             }
-            int min = Integer.MAX_VALUE;          
+            int min = Integer.MAX_VALUE;
             for (int i = 0; i < n; i++) {
-                if (!visited[i] && (distance[i] < min ) ) {
+                if (!visited[i] && (distance[i] < min)) {
                     sel = i;
                     min = distance[i];
                 }
@@ -179,65 +232,29 @@ class Graph {
             visited[sel] = true;
         }
 
-       //Print the path from "int from" to "int to"
-        int x =to;
+        //Print the path from "int from" to "int to"
+        int x = to;
         java.util.Stack stack = new java.util.Stack();
-        while (x!=from){
-            stack.push(x);            
-             x=path[x];
+        while (x != from) {
+            stack.push(x);
+            x = path[x];
         }
         stack.push(from);
-        while (!stack.isEmpty()){
+        while (!stack.isEmpty()) {
             x = (int) stack.pop();
-            f.writeBytes(v[x]+" ");
+            f.writeBytes(v[x] + " ");
         }
         f.writeBytes("\n");
-        while (x!=from){
-            stack.push(x);            
-             x=path[x];
+        while (x != from) {
+            stack.push(x);
+            x = path[x];
         }
         stack.push(from);
-        while (!stack.isEmpty()){
+        while (!stack.isEmpty()) {
             x = (int) stack.pop();
-            f.writeBytes(distance[x]+" ");
+            f.writeBytes(distance[x] + " ");
         }
     }
-    
-    
-    int deg(int i) {
-        int s, j;
-        s = 0;
-        for (j = 0; j < n; j++) {
-            s += a[i][j];
-        }
-        s += a[i][i];
-        return (s);
-    }
-
-//===========================================================================
-//(2)===YOU CAN EDIT OR EVEN ADD NEW FUNCTIONS IN THE FOLLOWING PART========
-//===========================================================================
-    void f1() throws Exception {
-        loadData(1);
-        String fname = "f1.txt";
-        File g123 = new File(fname);
-        if (g123.exists()) {
-            g123.delete();
-        }
-        RandomAccessFile f = new RandomAccessFile(fname, "rw");        
-        depth(1, f);
-        f.writeBytes("\r\n");
-        //-------------------------------------------------------------------------------------
-        /*You must keep statements pre-given in this function.
-       Your task is to insert statements here, just after this comment,
-       to complete the question in the exam paper.*/
-        depth2(1, f);
-
-        //-------------------------------------------------------------------------------------
-        f.writeBytes("\r\n");
-        f.close();
-    }
-//===========================================================================
 
     void f2() throws Exception {
         loadData(12);
@@ -251,7 +268,7 @@ class Graph {
         /*You must keep statements pre-given in this function.
        Your task is to insert statements here, just after this comment,
        to complete the question in the exam paper.*/
-        dijkstra(0, 4,f);
+        dijkstra(0, 4, f);
         //-------------------------------------------------------------------------------------
         f.writeBytes("\r\n");
         f.close();
@@ -274,6 +291,82 @@ while(S is not empty)
  }
  the last array E obtained is an Euler cycle of the graph
      */
+    private boolean isIsolated(int vertex, int[][] tmpAdj) {
+        for (int i = 0; i < tmpAdj.length; i++) {
+            if (tmpAdj[vertex][i] > 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public void printEulerCycle(int startVertex, RandomAccessFile f) throws IOException {
+        int[][] tmpAdj = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                tmpAdj[i][j] = a[i][j];
+            }
+        }
+        List eulerCycle = new ArrayList();
+        java.util.Stack pathVertex = new java.util.Stack();
+        pathVertex.push(startVertex);
+        while (!pathVertex.empty()) {
+            int vertex = (int) pathVertex.peek();
+            if (isIsolated(vertex, tmpAdj)) { // neu dinh vertex co lap
+                eulerCycle.add(pathVertex.pop());
+            } else {
+                //Tim dinh lien ke dau tien va dua vao trong stack, rồi xóa cạnh đó đi
+                for (int i = 0; i < n; i++) {
+                    if (tmpAdj[vertex][i] > 0) {
+                        pathVertex.push(i);
+                        tmpAdj[vertex][i]--;
+                        tmpAdj[i][vertex]--;
+                        break;
+                    }
+                }
+            }
+        }
+
+        for (Object vertex : eulerCycle) {
+            f.writeBytes(v[(int) vertex] + " ");
+        }
+    }
+
+    //Chữa f3:
+    int isOlated(int v) {
+        for (int i = 0; i < n; i++) {
+            if (a[v][i] > 0) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public void findEulerCycle(int v1, RandomAccessFile f) throws IOException {
+        ArrayList t = new ArrayList();
+        Stack s = new Stack();
+        int sel = v1;
+        s.push(sel);
+        while (!s.isEmpty()) {
+            int tmp = s.top();
+            sel = isOlated(tmp);
+            if (sel == -1) {//=> tmp la dinh co lap
+                tmp = s.pop();
+                t.add(tmp);
+            } else {
+                //s ko la dinh co lap, check la dinh lien ke dau tien
+                //dua check vao stack va remoe canh tmp,check
+                s.push(sel);
+                a[tmp][sel]--;
+                a[sel][tmp]--;
+            }
+        }
+        for (int i = 0; i < t.size(); i++) {
+            f.writeBytes(" " + v[(int) t.get(i)]);
+        }
+
+    }
+
     void f3() throws Exception {
         loadData(20);
         String fname = "f3.txt";
@@ -281,7 +374,7 @@ while(S is not empty)
         if (g123.exists()) {
             g123.delete();
         }
-        RandomAccessFile f = new RandomAccessFile(fname, "rw");        
+        RandomAccessFile f = new RandomAccessFile(fname, "rw");
         f.writeBytes("\r\n");
         //-------------------------------------------------------------------------------------
         /*You must keep statements pre-given in this function.
@@ -289,11 +382,11 @@ while(S is not empty)
        to complete the question in the exam paper.*/
         // You can use the statement fvisit(i,f); i = 0, 1, 2,...,n-1 to display the vertex i to file f5.txt 
         //  and statement f.writeBytes(" " + k); to write  variable k to the file f5.txt  
-
+        findEulerCycle(1, f);
         //-------------------------------------------------------------------------------------
         f.writeBytes("\r\n");
         f.close();
     }
-    
+
 }
 //=================================================================

@@ -56,18 +56,29 @@ insert into DONGIA values    (101 , 180000),
 							 (303 , 350000),
 							 (401 , 180000),
 							 (404 , 350000)
+---- Thu thu xoa bang: DONGIA -> DATPHONG -> PHONG -> KHACHHANG
+drop table DONGIA
+drop table DATPHONG
+drop table PHONG
+drop table KHACHHANG
 
 ----- Buoc 3: Tra loi cau hoi -----		
 -- Câu 4: Hiển thị thông tin khách hàng đặt phòng ngày 17/12/2020 ---
+-- Cach 1:
 With a as (select * from DATPHONG where NGAYDAT = '2020-12-17')
 select KHACHHANG.MAKH , HOTEN, DIACHI, DIENTHOAI from KHACHHANG
 Inner Join a
 on KHACHHANG.MAKH = a.MAKH
+-- Cach 2: Tham chieu cot
+select * from KHACHHANG where MAKH = (select MAKH from DATPHONG where NGAYDAT = '2020-12-17')
+
 --- Câu 5: Đưa ra thông tin đặt phòng khách sử dụng ngày 18/12/2020 ---
 select * from DATPHONG where NGAYSD = '2020-12-18'
+
 --- Câu 6: Sửa lại giá phòng 301 thành 380.000đ ---
 Update DONGIA 
 set GIA = 380000 where  MAPHONG = 301
+
 --- Câu 7: . Hiển thị thông tin phòng có giá từ 150.000đ đến 200.000đ ---
 With b as (select * from DONGIA where GIA between 150000 and 200000)
 select PHONG.MAPHONG, PHONG.TENPHONG, b.GIA from  PHONG 
@@ -77,12 +88,16 @@ on PHONG.MAPHONG = b.MAPHONG
 --- Câu 8: Sắp xếp danh sách đơn giá của phòng theo thứ tự tăng dần ---
 select * from DONGIA 
 order by GIA ASC
+
 --- Câu 9: Đưa ra thông tin khách hàng có tên là Toàn ---
 select * from KHACHHANG where (HOTEN like N'%Toàn%')
 
 --- Câu 10: Cho biết thông tin của khách hàng có địa chỉ tại Thái Nguyên đã đặt phòng ---
+-- Cach 1: Dung inner join
 With c as (select MAKH from DATPHONG)
 select KHACHHANG.MAKH, HOTEN, DIACHI, DIENTHOAI from KHACHHANG
 inner join c
 on KHACHHANG.MAKH = c.MAKH
 where (DIACHI like N'%Thái Nguyên%')
+-- Cach 2: THam chieu cot
+select * from DATPHONG where MAKH = (select MAKH from KHACHHANG where (DIACHI like N'%Thái Nguyên%'))

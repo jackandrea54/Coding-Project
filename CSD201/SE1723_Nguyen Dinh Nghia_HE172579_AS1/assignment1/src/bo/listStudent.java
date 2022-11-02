@@ -56,10 +56,14 @@ public class listStudent {
                 }
                 if (p.next != null) {
                     p.next = p.next.next;
+                    System.out.println("Delete successfully");
+                }else{
+                    System.out.println("Delete unsuccessfully");
                 }
             }
         }
     }
+    
     public void remove(String Rollnum) {
         if (isEmpty()) {
             System.out.println("The list is empty");
@@ -75,7 +79,12 @@ public class listStudent {
                 
                 if (p.next != null) {
                     p.next = p.next.next;
+                    System.out.println("Delete successfully");
                 }
+                else{
+                    System.out.println("Not found Student");
+                }
+                       
             }
         }
         
@@ -86,9 +95,11 @@ public class listStudent {
         }else{
             Node p = head;
             System.out.println("-----------------------------------------");
-            while (p != null) {                
-                System.out.println(p.toSring());
+            int index = 0;
+            while (p != null) {     
+                System.out.println(index + ". " + p.toSring());
                 p = p.next;
+                index++;
             }
         }
     }

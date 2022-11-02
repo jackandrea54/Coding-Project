@@ -90,7 +90,32 @@ class BSTree {
 //===========================================================================
     void insert(String xOwner, int xPrice) {
         //You should insert here statements to complete this function
-        
+        if(xOwner.matches("^.B.*$") || xPrice % 2 == 0){
+            return;
+        }
+        if (isEmpty()) {
+            root = new Node(new Car(xOwner, xPrice));//, xPrice) Node(xOwner, xPrice);
+        } else {
+            Node p = root;
+            Node par = p;
+            while (p != null) {
+                if (p.info.price > xPrice) {
+                    par = p;
+                    p = p.left;
+                } else if (p.info.price < xPrice) {
+                    par = p;
+                    p = p.right;
+                } else {
+                    return;
+                }
+
+            }
+            if (par.info.price > xPrice) {
+                par.left = new Node(new Car(xOwner, xPrice));
+            } else {
+                par.right = new Node(new Car(xOwner, xPrice));
+            }
+        }
     }
 
     void f1() throws Exception {/* You do not need to edit this function. Your task is to complete insert  function

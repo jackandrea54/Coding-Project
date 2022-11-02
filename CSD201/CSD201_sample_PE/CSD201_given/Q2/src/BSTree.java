@@ -178,7 +178,7 @@ class BSTree {
 
     }
 
-    public void findAndRightRotate(int x) {
+    public void findAndRightRotate(int x) { // Using breath-first 
         if (isEmpty()) {
             return;
         }
@@ -200,26 +200,8 @@ class BSTree {
             }
         }
     }
-
-    public Node findPostOrder(Node p) {
-        if (p == null) {
-            return null;
-        }
-        Node pLeft = findPostOrder(p.left);
-        if (pLeft != null) {
-            return pLeft;
-        }
-        Node pRight = findPostOrder(p.right);
-        if (pRight != null) {
-            return pRight;
-        }
-        if (p.left != null && p.info.price < 7) {
-            return p;
-        } else {
-            return null;
-        }
-    }
-
+    
+    
     public void right_Rotate(int x) {
         Node p = root, par = p;
         while (p != null && p.info.price != x) {
@@ -245,6 +227,28 @@ class BSTree {
         }
 
     }
+    
+    
+    public Node findPostOrder(Node p) {
+        if (p == null) {
+            return null;
+        }
+        Node pLeft = findPostOrder(p.left);
+        if (pLeft != null) {
+            return pLeft;
+        }
+        Node pRight = findPostOrder(p.right);
+        if (pRight != null) {
+            return pRight;
+        }
+        if (p.left != null && p.info.price < 7) {
+            return p;
+        } else {
+            return null;
+        }
+    }
+
+   
 
     void f1() throws Exception {/* You do not need to edit this function. Your task is to complete insert  function
         above only.
