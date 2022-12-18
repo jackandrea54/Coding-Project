@@ -234,7 +234,8 @@ class BSTree {
             g123.delete();
         }
         RandomAccessFile f = new RandomAccessFile(fname, "rw");
-        postOrder(root, f);
+//        postOrder(root, f);
+        breadth(root, f);
         f.writeBytes("\r\n");
 //        inorder2(root);
         //------------------------------------------------------------------------------------
@@ -243,8 +244,8 @@ class BSTree {
        to complete the question in the exam paper.*/
         removeByCopying();
         //------------------------------------------------------------------------------------
-        postOrder(root, f);
-
+//        postOrder(root, f);
+        breadth(root, f);
         f.writeBytes(
                 "\r\n");
         f.close();
@@ -255,7 +256,7 @@ class BSTree {
         if (p == null) {
             return null;
         }
-        if (p.left != null && p.right != null && p.info.price >= x && p.info.price <= y) {
+        if (p.right != null && p.info.price >= x && p.info.price <= y) {
             return p;
         }
         Node q = findNodePreOrder(p.left, x, y);
@@ -263,6 +264,7 @@ class BSTree {
             return q;
         }
         q = findNodePreOrder(p.right, x, y);
+        
         if (q != null) {
             return q;
         } else {
@@ -270,10 +272,27 @@ class BSTree {
         }
     }
 
+    Node qf4;
+    int count = 0;
+    void preOrderf4(Node p, RandomAccessFile f) throws Exception{ // Tim node dau tien thoa man dieu kien
+        if (p == null) {
+            return;
+        }
+         if (p.left != null && p.right != null && p.info.price >= 3 && p.info.price <= 50 && qf4 == null) {
+            count++;
+             if (count == 1) { // Node dau tien thi lay
+                 qf4 = p;
+             }
+            return;
+        }
+        preOrderf4(p.left, f);
+        preOrderf4(p.right, f);
+    }
+    
     public void left_Rotate() {
-        int x = findNodePreOrder(root, 3, 50).info.price;
+        int x = findNodePreOrder(root, 30, 70).info.price;
         Node p = root, par = p;
-        while (p != null && p.info.price < x) {
+        while (p != null && p.info.price != x) {
             if (p.info.price < x) {
                 par = p;
                 p = p.right;
@@ -306,7 +325,8 @@ class BSTree {
             g123.delete();
         }
         RandomAccessFile f = new RandomAccessFile(fname, "rw");
-        preOrder(root, f);
+//        preOrder(root, f);
+        breadth(root, f);
         f.writeBytes("\r\n");
         //------------------------------------------------------------------------------------
         /*You must keep statements pre-given in this function.
@@ -314,7 +334,8 @@ class BSTree {
        to complete the question in the exam paper.*/
         left_Rotate();
         //-------------------+-----------------------------------------------------------------
-        preOrder(root, f);
+//        preOrder(root, f);
+        breadth(root, f);
         f.writeBytes("\r\n");
         f.close();
     }

@@ -160,31 +160,24 @@ class MyList {
         /*You must keep statements pre-given in this function.
        Your task is to insert statements here, just after this comment,
        to complete the question in the exam paper.*/
-        if (head == null || head.next == null) {
-            return;
-        }
+        Node maxrate = head;
+        Node p = head;
+        while (p != null) {
+            if (p.info.price > maxrate.info.price) {
+                maxrate = p;
+            }
+            p = p.next;
 
-        boolean flag = true;
-        do {
-            if (head.info.price > head.next.info.price) {
-                Node tmp = head.next;
-                head.next = head.next.next;
-                tmp.next = head;
-                head = tmp;
-            }
-            Node p = head;
-            flag = false;
-            while (p.next != null && p.next.next != null) {
-                if (p.next.info.owner.compareTo(p.next.next.info.owner) > 0) {
-                    Node tmp = p.next;
-                    p.next = p.next.next;
-                    tmp.next = tmp.next.next;
-                    p.next.next = tmp;
-                    flag = true;
+        }
+        for (Node i = head; i != maxrate.next; i = i.next) {
+            for (Node j = i.next; j != maxrate.next; j = j.next) {
+                if (i.info.owner.compareTo(j.info.owner) > 0) {
+                    Car temp = i.info;
+                    i.info = j.info;
+                    j.info = temp;
                 }
-                p = p.next;
             }
-        } while (flag == true);
+        }
         //------------------------------------------------------------------------------------
         ftraverse(f);
         f.close();
