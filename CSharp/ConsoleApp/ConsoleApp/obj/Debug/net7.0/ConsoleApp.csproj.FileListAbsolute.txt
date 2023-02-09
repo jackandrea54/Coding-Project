@@ -1,0 +1,15 @@
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\bin\Debug\net7.0\ConsoleApp.exe
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\bin\Debug\net7.0\ConsoleApp.deps.json
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\bin\Debug\net7.0\ConsoleApp.runtimeconfig.json
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\bin\Debug\net7.0\ConsoleApp.dll
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\bin\Debug\net7.0\ConsoleApp.pdb
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.AssemblyReference.cache
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net7.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net7.0\ConsoleApp.AssemblyInfoInputs.cache
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net7.0\ConsoleApp.AssemblyInfo.cs
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net7.0\ConsoleApp.dll
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net7.0\refint\ConsoleApp.dll
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net7.0\ConsoleApp.pdb
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net7.0\ConsoleApp.genruntimeconfig.cache
+D:\Coding Project\CSharp\ConsoleApp\ConsoleApp\obj\Debug\net7.0\ref\ConsoleApp.dll
