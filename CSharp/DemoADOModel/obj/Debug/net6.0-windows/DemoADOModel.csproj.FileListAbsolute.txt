@@ -1,0 +1,75 @@
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.exe
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.deps.json
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.runtimeconfig.json
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.dll
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.pdb
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.csproj.AssemblyReference.cache
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.Form1.resources
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.csproj.GenerateResource.cache
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.AssemblyInfoInputs.cache
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.AssemblyInfo.cs
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.csproj.CoreCompileInputs.cache
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.csproj.CopyComplete
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.dll
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\refint\DemoADOModel.dll
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.pdb
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.genruntimeconfig.cache
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\ref\DemoADOModel.dll
+D:\CodeDemo\PRN211\SE1627\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.frmEdit.resources
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.exe
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.deps.json
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.runtimeconfig.json
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.dll
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.pdb
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.csproj.AssemblyReference.cache
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.Form1.resources
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.frmEdit.resources
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.csproj.GenerateResource.cache
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.AssemblyInfoInputs.cache
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.AssemblyInfo.cs
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.csproj.CoreCompileInputs.cache
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.csproj.CopyComplete
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.dll
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\refint\DemoADOModel.dll
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.pdb
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.genruntimeconfig.cache
+E:\FPT\1_PRN211 (1)\Documents\DemoADOModel1\DemoADOModel\obj\Debug\net6.0-windows\ref\DemoADOModel.dll
+D:\Coding Project\CSharp\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.exe
+D:\Coding Project\CSharp\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.deps.json
+D:\Coding Project\CSharp\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.runtimeconfig.json
+D:\Coding Project\CSharp\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.dll
+D:\Coding Project\CSharp\DemoADOModel\bin\Debug\net6.0-windows\DemoADOModel.pdb
+D:\Coding Project\CSharp\DemoADOModel\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Coding Project\CSharp\DemoADOModel\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Coding Project\CSharp\DemoADOModel\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Coding Project\CSharp\DemoADOModel\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Coding Project\CSharp\DemoADOModel\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Coding Project\CSharp\DemoADOModel\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.csproj.AssemblyReference.cache
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.Form1.resources
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.frmEdit.resources
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.csproj.GenerateResource.cache
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.AssemblyInfoInputs.cache
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.AssemblyInfo.cs
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.csproj.CoreCompileInputs.cache
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.csproj.CopyComplete
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.dll
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\refint\DemoADOModel.dll
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.pdb
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\DemoADOModel.genruntimeconfig.cache
+D:\Coding Project\CSharp\DemoADOModel\obj\Debug\net6.0-windows\ref\DemoADOModel.dll

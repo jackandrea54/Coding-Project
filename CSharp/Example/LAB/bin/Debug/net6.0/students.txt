@@ -1,0 +1,17 @@
+1|Nguyen Van A|SE|12 Sep 1999|2018|50
+2|Nguyen Dinh Thang|JS|15 May 2001|2018|0
+3|Tran Xuan Quang|SE|26 Nov 2001|2019|20.5
+4|Nguyen Quoc Anh|IA|14 Sep 2001|2019|37.5
+5|Dang Viet Anh|SE|04 Jul 2001|2019|30
+6|Nguyen Thi Thuy Linh|SE|12 Sep 2001|2019|50
+7|Kieu Thi Bich Nguyet|JS|21 Aug 2001|2019|40
+8|Tran Van Nghia|AI|30 May 2001|2018|12
+9|Nguyen Tien Hoa|SE|15 May 2001|2018|0
+10|Tran Van Huy|SE|26 Nov 2001|2019|20.5
+11|Nguyen Thi Hai Linh|SE|14 Sep 2001|2019|37.5
+12|Dang Van Anh|SE|04 Jul 2001|2019|30
+13|To Van Thi|SE|12 Sep 2001|2019|50
+14|To Quang Huy|JS|21 Aug 2001|2019|40
+14|To Quang Huy|JS|21 Aug 2001|2019|40
+15|To Quang Huy|JS|32 Aug 2001|2019|40
+15|To Quang Huy|JS|32 Aug 2001|2019|

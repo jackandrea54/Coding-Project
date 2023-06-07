@@ -1,0 +1,16 @@
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\bin\Debug\net6.0\LAB.exe
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\bin\Debug\net6.0\LAB.deps.json
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\bin\Debug\net6.0\LAB.runtimeconfig.json
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\bin\Debug\net6.0\LAB.dll
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\bin\Debug\net6.0\LAB.pdb
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\obj\Debug\net6.0\LAB.csproj.AssemblyReference.cache
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\obj\Debug\net6.0\LAB.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\obj\Debug\net6.0\LAB.AssemblyInfoInputs.cache
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\obj\Debug\net6.0\LAB.AssemblyInfo.cs
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\obj\Debug\net6.0\LAB.csproj.CoreCompileInputs.cache
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\obj\Debug\net6.0\LAB.dll
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\obj\Debug\net6.0\refint\LAB.dll
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\obj\Debug\net6.0\LAB.pdb
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\obj\Debug\net6.0\LAB.genruntimeconfig.cache
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\obj\Debug\net6.0\ref\LAB.dll
+E:\FPT\1_PRN211 (1)\LAB\LAB\LAB\bin\Debug\net6.0\students.txt

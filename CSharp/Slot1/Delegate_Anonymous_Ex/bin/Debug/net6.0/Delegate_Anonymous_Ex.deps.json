@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Delegate_Anonymous_Ex/1.0.0": {
+        "dependencies": {
+          "Excerse_01": "1.0.0"
+        },
+        "runtime": {
+          "Delegate_Anonymous_Ex.dll": {}
+        }
+      },
+      "Excerse_01/1.0.0": {
+        "runtime": {
+          "Excerse_01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Delegate_Anonymous_Ex/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Excerse_01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

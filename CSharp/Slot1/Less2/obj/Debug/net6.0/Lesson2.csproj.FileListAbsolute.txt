@@ -1,0 +1,15 @@
+D:\Coding Project\CSharp\Slot1\Less2\bin\Debug\net6.0\Lesson2.exe
+D:\Coding Project\CSharp\Slot1\Less2\bin\Debug\net6.0\Lesson2.deps.json
+D:\Coding Project\CSharp\Slot1\Less2\bin\Debug\net6.0\Lesson2.runtimeconfig.json
+D:\Coding Project\CSharp\Slot1\Less2\bin\Debug\net6.0\Lesson2.dll
+D:\Coding Project\CSharp\Slot1\Less2\bin\Debug\net6.0\Lesson2.pdb
+D:\Coding Project\CSharp\Slot1\Less2\obj\Debug\net6.0\Lesson2.csproj.AssemblyReference.cache
+D:\Coding Project\CSharp\Slot1\Less2\obj\Debug\net6.0\Lesson2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding Project\CSharp\Slot1\Less2\obj\Debug\net6.0\Lesson2.AssemblyInfoInputs.cache
+D:\Coding Project\CSharp\Slot1\Less2\obj\Debug\net6.0\Lesson2.AssemblyInfo.cs
+D:\Coding Project\CSharp\Slot1\Less2\obj\Debug\net6.0\Lesson2.csproj.CoreCompileInputs.cache
+D:\Coding Project\CSharp\Slot1\Less2\obj\Debug\net6.0\Lesson2.dll
+D:\Coding Project\CSharp\Slot1\Less2\obj\Debug\net6.0\refint\Lesson2.dll
+D:\Coding Project\CSharp\Slot1\Less2\obj\Debug\net6.0\Lesson2.pdb
+D:\Coding Project\CSharp\Slot1\Less2\obj\Debug\net6.0\Lesson2.genruntimeconfig.cache
+D:\Coding Project\CSharp\Slot1\Less2\obj\Debug\net6.0\ref\Lesson2.dll
