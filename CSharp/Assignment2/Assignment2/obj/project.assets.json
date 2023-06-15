@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Coding Project\\CSharp\\Assignment2\\ADOApp\\Assignment2.csproj",
+      "projectUniqueName": "D:\\Coding Project\\CSharp\\Assignment2\\Assignment2\\Assignment2.csproj",
       "projectName": "Assignment2",
-      "projectPath": "D:\\Coding Project\\CSharp\\Assignment2\\ADOApp\\Assignment2.csproj",
+      "projectPath": "D:\\Coding Project\\CSharp\\Assignment2\\Assignment2\\Assignment2.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\Coding Project\\CSharp\\Assignment2\\ADOApp\\obj\\",
+      "outputPath": "D:\\Coding Project\\CSharp\\Assignment2\\Assignment2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

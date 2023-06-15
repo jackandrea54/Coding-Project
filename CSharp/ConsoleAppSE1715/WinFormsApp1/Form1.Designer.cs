@@ -3,12 +3,12 @@
     partial class Form1
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,40 +23,51 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            ClickMe = new Button();
+            btClickme = new Button();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
-            // ClickMe
+            // btClickme
             // 
-            ClickMe.Location = new Point(82, 70);
-            ClickMe.Name = "ClickMe";
-            ClickMe.Size = new Size(117, 45);
-            ClickMe.TabIndex = 0;
-            ClickMe.Text = "Click Me";
-            ClickMe.UseVisualStyleBackColor = true;
-            ClickMe.Click += btnNewButton_Click;
+            btClickme.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btClickme.Location = new Point(21, 12);
+            btClickme.Name = "btClickme";
+            btClickme.Size = new Size(166, 52);
+            btClickme.TabIndex = 0;
+            btClickme.Text = "Click Me";
+            btClickme.UseVisualStyleBackColor = true;
+            btClickme.Click += AddNewBtn;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(488, 28);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(514, 27);
+            textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // Form1
             // 
-            AllowDrop = true;
-            AutoScaleDimensions = new SizeF(9F, 21F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(554, 345);
-            Controls.Add(ClickMe);
-            Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            Margin = new Padding(4);
+            ClientSize = new Size(1372, 533);
+            Controls.Add(textBox1);
+            Controls.Add(btClickme);
             Name = "Form1";
             Text = "Main";
+            Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private Button ClickMe;//1. Khai bao bien
+        private Button btClickme;
+        private TextBox textBox1;
     }
 }
