@@ -1,0 +1,53 @@
+﻿@using ASPMVC_App.Models
+@model Course
+@{
+}
+
+<!doctype html>
+<html>
+<head>
+    <title>Detail </title>
+</head>
+<body>
+    <form action="/Course/Edit" method="post">
+    <input value="@Model.CourseId" type="hidden" name="course.CourseId" />
+    CourseCode : <input value="@Model.CourseCode" name="course.CourseCode" /><br />
+    CourseDescription: <input value="@Model.CourseDescription" name="course.CourseDescription" />
+    <br />
+    Subject: <select name="course.SubjectId">
+        @foreach(Subject s in ViewBag.subject)
+        {
+            <option @(s.SubjectId == Model.SubjectId ? "selected" : "" ) value="@s.SubjectId">@s.SubjectName</option>
+        }
+        
+    </select>
+
+    Instructor:
+    <select name="course.InstructorId">
+        @foreach (Instructor s in ViewBag.instructor)
+        {
+                <option @(s.InstructorId == Model.InstructorId ? "selected" : "") value="@s.InstructorId">@s.InstructorFirstName @s.InstructorMidName @s.InstructorLastName</option>
+        }
+
+    </select>
+
+    Campus:
+    <select name="course.CampusId">
+        @foreach (Campus s in ViewBag.campus)
+        {
+                <option @(s.CampusId == Model.CampusId ? "selected" : "") value="@s.CampusId">@s.CampusName</option>
+        }
+
+    </select>
+    Term:
+    <select name="course.TermId">
+        @foreach (Term s in ViewBag.term)
+        {
+                <option @(s.TermId == Model.TermId ? "selected" : "") value="@s.TermId">@s.TermName</option>
+        }
+
+    </select>
+    <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

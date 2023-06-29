@@ -1,0 +1,295 @@
+﻿@using CourseManagement.Models
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Danh sách nhân viên | Quản trị Admin</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS-->
+    @Html.Partial("_Head")
+</head>
+
+<body onload="time()" class="app sidebar-mini rtl">
+
+    <!-- Sidebar menu-->
+    <main class="app-content" style="margin-left:0">
+        <div class="app-title">
+            <ul class="app-breadcrumb breadcrumb side">
+                <li class="breadcrumb-item active">
+                    <a href="#">
+                        <b>
+                            List of course in subject <span class="text-danger">@ViewData["subjectName"]</span>
+                        </b>
+                    </a>
+                </li>
+            </ul>
+            <div id="clock"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tile">
+                    <div class="tile-body">
+                        <div class="row element-button">
+                            @*
+                                <div class="col-sm-2">
+
+                                <a class="btn btn-add btn-sm" href="form-add-san-pham.html" title="Thêm">
+                                <i class="fas fa-plus"></i>
+                                Thêm Course
+                                </a>
+                                </div>
+                                <div class="col-sm-2">
+                                <a class="btn btn-delete btn-sm" type="button" title="Xóa" onclick="myFunction(this)">
+                                <i class="fas fa-trash-alt"></i> Xóa tất cả
+                                </a>
+                                </div>
+                            *@
+                            <div class="col-sm-3">
+
+                                <select class="form-control form-control-sm js-example-basic-single" id="subject"
+                                        name="Id" onchange="location = this.value;">
+                                    <option value="" selected disabled hidden>Select a Subject</option>
+                                    @foreach (Subject s in ViewBag.subjects)
+                                    {
+                                        <option value="/Course/List/@s.SubjectId" @(s.SubjectId == ViewBag.subjectId ?
+                                            "selected":"")>@s.SubjectName - @s.Courses.Count</option>
+                                    }
+                                </select>
+                            </div>
+
+                        </div>
+                        @if (ViewBag.id == 0)
+                        {
+                            <div class="alert alert-danger" role="alert">
+                                <strong>
+                                    Please choose a subject.
+                                </strong>
+                            </div>
+                        }
+                        else
+                        {
+                            @if (ViewBag.Courses.Count <= 0)
+                            {
+                                <div class="alert alert-danger" role="alert">
+                                    <strong>
+                                        There are no course in @ViewData["subjectName"].
+                                    </strong>
+                                </div>
+                            }
+                            else
+                            {
+                                <table class="table table-hover table-bordered" id="sampleTable">
+                                    <thead>
+                                        <tr>
+                                            <th width="10"><input type="checkbox" id="all"></th>
+                                            <th>CourseId</th>
+                                            <th>CourseCode</th>
+                                            <th>CourseDescription</th>
+                                            <th width="120">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (Course c in ViewBag.courses)
+                                        {
+                                            <tr>
+                                                <td width="10"><input type="checkbox" name="check1" value="1"></td>
+                                                <td>@c.CourseId</td>
+                                                <td>@c.CourseCode</td>
+                                                <td>@c.CourseDescription</td>
+                                                <td>
+                                                    <a class="btn btn-info btn-sm" href="/Course/Detail/@c.CourseId"
+                                           title="View Details @c.CourseCode">
+                                                        <i class="fas fa-eye"></i>
+                                                    </a>
+                                                    <button class="btn btn-primary btn-sm edit" type="button" title="Sửa"
+                                                id="show-emp" data-toggle="modal" data-target="#ModalUP">
+                                                        <i class="fas fa-edit"></i>
+                                                    </button>
+                                                    <button class="btn btn-primary btn-sm trash" type="button" title="Delete @c.CourseCode"
+                                                onclick="DoDelete(@c.CourseId)">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--
+      MODAL
+    -->
+    <div class="modal fade" id="ModalUP" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static"
+         data-keyboard="false">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="form-group  col-md-12">
+                            <span class="thong-tin-thanh-toan">
+                                <h5>Chỉnh sửa thông tin sản phẩm cơ bản</h5>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label class="control-label">Mã sản phẩm </label>
+                            <input class="form-control" type="number" value="71309005">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="control-label">Tên sản phẩm</label>
+                            <input class="form-control" type="text" required value="Bàn ăn gỗ Theresa">
+                        </div>
+                        <div class="form-group  col-md-6">
+                            <label class="control-label">Số lượng</label>
+                            <input class="form-control" type="number" required value="20">
+                        </div>
+                        <div class="form-group col-md-6 ">
+                            <label for="exampleSelect1" class="control-label">Tình trạng sản phẩm</label>
+                            <select class="form-control" id="exampleSelect1">
+                                <option>Còn hàng</option>
+                                <option>Hết hàng</option>
+                                <option>Đang nhập hàng</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="control-label">Giá bán</label>
+                            <input class="form-control" type="text" value="5.600.000">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="exampleSelect1" class="control-label">Danh mục</label>
+                            <select class="form-control" id="exampleSelect1">
+                                <option>Bàn ăn</option>
+                                <option>Bàn thông minh</option>
+                                <option>Tủ</option>
+                                <option>Ghế gỗ</option>
+                                <option>Ghế sắt</option>
+                                <option>Giường người lớn</option>
+                                <option>Giường trẻ em</option>
+                                <option>Bàn trang điểm</option>
+                                <option>Giá đỡ</option>
+                            </select>
+                        </div>
+                    </div>
+                    <BR>
+                    <a href="#" style="    float: right;
+    font-weight: 600;
+    color: #ea0000;">Chỉnh sửa sản phẩm nâng cao</a>
+                    <BR>
+                    <BR>
+                    <button class="btn btn-save" type="button">Lưu lại</button>
+                    <a class="btn btn-cancel" data-dismiss="modal" href="#">Hủy bỏ</a>
+                    <BR>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    MODAL
+    -->
+    <!-- Essential javascripts for application to work-->
+    @Html.Partial("_Scripts")
+    <script>
+        $(document).ready(function () {
+            $('.js-example-basic-single').select2();
+        });
+        oTable = $('#sampleTable').dataTable();
+        $('#all').click(function (e) {
+            $('#sampleTable tbody :checkbox').prop('checked', $(this).is(':checked'));
+        e.stopImmediatePropagation();
+        });
+        function DoDelete(r) {
+            swal({
+                title: "Bạn có chắc chắn muốn xóa?",
+                text: "Sau khi xóa, bạn sẽ không thể khôi phục lại dữ liệu này!",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#DD6B55",
+                confirmButtonText: "Đồng ý xóa!",
+                cancelButtonText: "Hủy bỏ!",
+            }, function (isConfirm) {
+                if (isConfirm) {
+                    $.ajax({
+                        url: '@Url.Action("Delete", "Course")',
+                        type: 'POST',
+                        data: {
+                            id: r
+                        },
+                        success: function (data) {
+                             swal({
+                                title: "Xóa thành công!",
+                                text: "Dữ liệu đã được xóa.",
+                                type: "success",
+                                timer: 1000,
+                                confirmButtonText: "OK"}).then(function () {
+                                window.location.reload();
+                            });
+                        },
+                        error: function (data) {
+                            swal("Xóa thất bại!", "", "error");
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+    </script>
+    <script type="text/javascript">
+             $('#sampleTable').DataTable();
+             //Thời Gian
+             function time() {
+            var today = new Date();
+             var weekday = new Array(7);
+             weekday[0] = "Chủ Nhật";
+             weekday[1] = "Thứ Hai";
+             weekday[2] = "Thứ Ba";
+             weekday[3] = "Thứ Tư";
+             weekday[4] = "Thứ Năm";
+             weekday[5] = "Thứ Sáu";
+             weekday[6] = "Thứ Bảy";
+             var day = weekday[today.getDay()];
+             var dd = today.getDate();
+             var mm = today.getMonth() + 1;
+             var yyyy = today.getFullYear();
+             var h = today.getHours();
+             var m = today.getMinutes();
+             var s = today.getSeconds();
+             m = checkTime(m);
+             s = checkTime(s);
+             nowTime = h + " giờ " + m + " phút " + s + " giây";
+             if (dd < 10) {
+                 dd = '0' + dd
+             }
+             if (mm < 10) {
+                 mm = '0' + mm
+             }
+             today = day + ', ' + dd + '/' + mm + '/' + yyyy;
+             tmp = '<span class="date"> ' + today + ' - ' + nowTime +
+                 '</span>';
+             document.getElementById("clock").innerHTML = tmp;
+             clocktime = setTimeout("time()", "1000", "Javascript");
+
+             function checkTime(i) {
+                if (i < 10) {
+                 i = "0" + i;
+                }
+             return i;
+            }
+        }
+    </script>
+
+</body>
+
+</html>

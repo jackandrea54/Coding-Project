@@ -1,0 +1,61 @@
+﻿@using LAB3Northwind.Models
+@model List<Employee>
+@using LAB3Northwind.Helper
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<div style="display:flex; justify-content:space-around">
+    <div>
+        <h1>Employee List</h1>
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Hire Date</th>
+                <th>Show list order</th>
+            </tr>
+            @foreach (Employee em in Model)
+            {
+                <tr>
+                    <td>@em.EmployeeId</td>
+                    <td>@em.FirstName @em.LastName</td>
+                    <td>@em.Title</td>
+                    <td>@em.HireDate.ToString().Split(" ")[0]</td>
+                    <td>
+                        <a href="@Url.Action("List", "Employee", new { id = em.EmployeeId })">Show</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+
+    <div>
+        <h1>List order</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>OrderId</th>
+                    <th>Customer</th>
+                    <th>Employee</th>
+                    <th>OrderDate</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Order em in ViewBag.ListOrder)
+                {
+                    <tr>
+                        <td>@em.OrderId</td>
+                        <td>@em.Customer.ContactName</td>
+                        <td>@em.Employee.FirstName @em.Employee.LastName</td>
+                        <td>@(em.OrderDate.ToString().Split(" ")[0])</td>
+                    </tr>
+                }
+            </tbody>
+            @{
+                PagingHelper pagingHelper = ViewBag.Paging as PagingHelper;
+                pagingHelper.UrlLink = (int? p) => "?page=" + p;
+            }
+            @await Html.PartialAsync("_Paging", model:@pagingHelper)
+        </table>
+    </div>
+</div>

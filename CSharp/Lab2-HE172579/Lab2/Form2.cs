@@ -27,7 +27,7 @@ namespace Lab2
             comboBox_MajorInTable.DisplayMember = "MajorTitle";
 
             //Load info Scholarships list box
-            List<float> scholarshipTypes = new List<float> { 30.0f, 50.0f, 80.0f, 100.0f };
+            List<float> scholarshipTypes = new List<float> {0.0f, 30.0f, 50.0f, 80.0f, 100.0f };
             foreach (float value in scholarshipTypes)
             {
                 listBox_Scholarship.Items.Add(value);

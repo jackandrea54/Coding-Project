@@ -25,7 +25,7 @@ namespace Lab2
             comboBox_MajorInTable.DisplayMember = "MajorTitle";
 
             //Load info Scholarships list box
-            List<float> scholarshipTypes = new List<float> { 30.0f, 50.0f, 80.0f, 100.0f };
+            List<float> scholarshipTypes = new List<float> { 0.0f, 30.0f, 50.0f, 80.0f, 100.0f };
             foreach (float value in scholarshipTypes)
             {
                 listBox_Scholarship.Items.Add(value);
@@ -41,6 +41,7 @@ namespace Lab2
                 DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
                 // Assuming your ID column is at index 0, change it accordingly if needed
                 textBox_ID.Text = selectedRow.Cells[0].Value.ToString();
+                textBox_ID.ReadOnly = true;
                 textBox_Name.Text = selectedRow.Cells[1].Value.ToString();
                 string gender = selectedRow.Cells[2].Value.ToString();
                 if (gender.Equals("Female"))
@@ -174,6 +175,7 @@ namespace Lab2
         private void RefreshTable()
         {
             textBox_ID.Clear();
+            textBox_ID.ReadOnly = false;
             textBox_Name.Clear();
             radioButton_Female.Checked = false;
             radioButton_Male.Checked = false;
@@ -186,7 +188,7 @@ namespace Lab2
 
         private void comboBox_Major_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Major major = (Major) comboBox_Major.SelectedItem;
+            Major major = (Major)comboBox_Major.SelectedItem;
             dataGridView1.DataSource = StudentDao.GetStudentsByMajor(major.MajorCode);
         }
     }

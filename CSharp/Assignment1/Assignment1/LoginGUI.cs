@@ -39,23 +39,20 @@ namespace Assignment1
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string user = configuration.GetSection("AdminCredentials")["Name"];
-            string pass = configuration.GetSection("AdminCredentials")["Password"];
+            string password = configuration.GetSection("AdminCredentials")["Password"];
 
-
-            // Check if the entered username and password match the admin credentials
-            if (inputUser.Text == user && inputPassword.Text == pass)
-            {
-                // Display the admin dashboard or perform any action you need
+            //Check user and password for appsetting.json file
+            if(inputUser.Text == user && inputPassword.Text == password) {
                 CarGUI_Admin carAdmin = new CarGUI_Admin();
                 carAdmin.ShowDialog();
-
-                // Close the login form
-                this.Close();
             }
             else
             {
-                MessageBox.Show("Invalid username or password. Please try again.");
+                MessageBox.Show("Login failed");
             }
+
+
+
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

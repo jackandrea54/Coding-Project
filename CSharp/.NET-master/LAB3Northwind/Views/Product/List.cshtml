@@ -1,0 +1,78 @@
+﻿<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+@using LAB3Northwind.Helper
+@using LAB3Northwind.Models;
+@model List<Product>
+<div style="display:flex; justify-content:space-around">
+    <div>
+        <h1>List Category</h1>
+        <select multiple="">
+            @foreach (Category category in ViewBag.Categories)
+            {
+                <option value="@category.CategoryId">@category.CategoryName</option>
+            }
+        </select>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Show product</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>@Html.ActionLink("Show All", "List", "Product", new { categoryId = 0})</th>
+                </tr>
+                @foreach (Category category in ViewBag.Categories)
+                {
+                    <tr>
+                        <th>@category.CategoryId</th>
+                        <th>@category.CategoryName</th>
+                        <th>@Html.ActionLink("Show", "List", "Product", new { categoryId = category.CategoryId})</th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h3>Total Item in cart: @ViewBag.totalItems<a href="/Cart/ViewCart"> View Cart</a></h3>
+        <h1>List Product</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Quantity in Stock</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Product product in Model)
+                {
+                    <tr>
+                        <td>@product.ProductId</td>
+                        <td>@product.ProductName</td>
+                        <td>@product.UnitPrice</td>
+                        <td>@product.UnitsInStock</td>
+                        <td>@Html.ActionLink("Add to cart", "AddToCart", "Cart", new { productId = product.ProductId })</td>
+                    </tr>
+                }
+            </tbody>
+            @{
+                PagingHelper pagingHelper = ViewBag.Paging as PagingHelper;
+                pagingHelper.UrlLink = (int? p) => Url.Action("List", "Product", new
+                {
+                    categoryId = ViewBag.categoryId,
+                    page
+                = p
+                });
+            }
+            @await Html.PartialAsync("_Paging", model:@pagingHelper)
+        </table>
+    </div>
+</div>

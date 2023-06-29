@@ -225,7 +225,6 @@
             textBox_ID.Location = new Point(97, 6);
             textBox_ID.Margin = new Padding(2);
             textBox_ID.Name = "textBox_ID";
-            textBox_ID.ReadOnly = true;
             textBox_ID.Size = new Size(257, 27);
             textBox_ID.TabIndex = 10;
             // 

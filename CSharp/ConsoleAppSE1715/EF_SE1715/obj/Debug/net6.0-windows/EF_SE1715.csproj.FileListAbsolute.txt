@@ -66,3 +66,4 @@ D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\EF_
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\EF_SE1715.genruntimeconfig.cache
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\ref\EF_SE1715.dll
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\bin\Debug\net6.0-windows\appsettings.json
+D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\EF_SE1715.FormAddEdit.resources

@@ -7,4 +7,4 @@ Bước 3: tạo file appsettings.json
 dotnet ef DBContext scaffold "Server = DESKTOP-2EP69KG\MSSQLSERVER2019; Database = Cars; user = sa; password = 123456" Microsoft.EntityFrameworkCore.SqlServer -o Models
 
 
-Scaffold-DbContext "Server=DESKTOP-2EP69KG\MSSQLSERVER2019;Database=Cars;user = sa; password = 123456;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+Scaffold-DbContext "Server=DESKTOP-2EP69KG\MSSQLSERVER2019;Database=PE_PRN_Sum21;user = sa; password = 123456;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
