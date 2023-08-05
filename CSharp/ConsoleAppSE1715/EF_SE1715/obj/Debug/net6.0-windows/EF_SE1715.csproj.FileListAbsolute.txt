@@ -1,3 +1,4 @@
+D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\bin\Debug\net6.0-windows\appsettings.json
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\bin\Debug\net6.0-windows\EF_SE1715.exe
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\bin\Debug\net6.0-windows\EF_SE1715.deps.json
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\bin\Debug\net6.0-windows\EF_SE1715.runtimeconfig.json
@@ -54,6 +55,7 @@ D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\bin\Debug\net6.0-windows\run
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\EF_SE1715.csproj.AssemblyReference.cache
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\EF_SE1715.CarGUI.resources
+D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\EF_SE1715.FormAddEdit.resources
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\EF_SE1715.csproj.GenerateResource.cache
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\EF_SE1715.GeneratedMSBuildEditorConfig.editorconfig
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\EF_SE1715.AssemblyInfoInputs.cache
@@ -65,5 +67,3 @@ D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\ref
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\EF_SE1715.pdb
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\EF_SE1715.genruntimeconfig.cache
 D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\ref\EF_SE1715.dll
-D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\bin\Debug\net6.0-windows\appsettings.json
-D:\Coding Project\CSharp\ConsoleAppSE1715\EF_SE1715\obj\Debug\net6.0-windows\EF_SE1715.FormAddEdit.resources

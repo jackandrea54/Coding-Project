@@ -1,0 +1,168 @@
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\appsettings.Development.json
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\appsettings.json
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Q3.exe
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Q3.deps.json
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Q3.runtimeconfig.json
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Q3.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Q3.pdb
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Azure.Core.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Azure.Identity.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Humanizer.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.CodeDom.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Memory.Data.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Text.Json.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.csproj.AssemblyReference.cache
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.AssemblyInfoInputs.cache
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.AssemblyInfo.cs
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.csproj.CoreCompileInputs.cache
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.MvcApplicationPartsAssemblyInfo.cache
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets\msbuild.Q3.Microsoft.AspNetCore.StaticWebAssets.props
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets\msbuild.build.Q3.props
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Q3.props
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Q3.props
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets.pack.json
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets.build.json
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets.development.json
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\scopedcss\bundle\Q3.styles.css
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.csproj.CopyComplete
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\refint\Q3.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.pdb
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.genruntimeconfig.cache
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\ref\Q3.dll
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.RazorAssemblyInfo.cache
+D:\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.RazorAssemblyInfo.cs
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\appsettings.Development.json
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\appsettings.json
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Q3.exe
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Q3.deps.json
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Q3.runtimeconfig.json
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Q3.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Q3.pdb
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Azure.Core.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Azure.Identity.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Humanizer.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.CodeDom.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Text.Json.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.csproj.AssemblyReference.cache
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.AssemblyInfoInputs.cache
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.AssemblyInfo.cs
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.csproj.CoreCompileInputs.cache
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.MvcApplicationPartsAssemblyInfo.cache
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.RazorAssemblyInfo.cache
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.RazorAssemblyInfo.cs
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets\msbuild.Q3.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets\msbuild.build.Q3.props
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Q3.props
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Q3.props
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets.build.json
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\staticwebassets.development.json
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\scopedcss\bundle\Q3.styles.css
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.csproj.CopyComplete
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\refint\Q3.dll
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.pdb
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\Q3.genruntimeconfig.cache
+D:\Coding Project\CSharp\PRN Trial\PRN211_SU23_PE_Trial\PE_Trial_Su23\Q3\obj\Debug\net6.0\ref\Q3.dll

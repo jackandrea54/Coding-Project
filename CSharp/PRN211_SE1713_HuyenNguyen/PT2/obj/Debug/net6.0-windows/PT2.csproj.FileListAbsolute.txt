@@ -1,0 +1,108 @@
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\PT2.exe
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\appsettings.json
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\PT2.deps.json
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\PT2.runtimeconfig.json
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\PT2.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\PT2.pdb
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\System.Text.Json.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.csproj.AssemblyReference.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.Form1.resources
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.csproj.GenerateResource.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.AssemblyInfoInputs.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.AssemblyInfo.cs
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.csproj.CoreCompileInputs.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.csproj.CopyComplete
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\refint\PT2.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.pdb
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.genruntimeconfig.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\ref\PT2.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\PT2.exe
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\appsettings.json
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\PT2.deps.json
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\PT2.runtimeconfig.json
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\PT2.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\PT2.pdb
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\System.Text.Json.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.csproj.AssemblyReference.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.Form1.resources
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.csproj.GenerateResource.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.AssemblyInfoInputs.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.AssemblyInfo.cs
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.csproj.CoreCompileInputs.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.csproj.CopyComplete
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\refint\PT2.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.pdb
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\PT2.genruntimeconfig.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\PT2\obj\Debug\net6.0-windows\ref\PT2.dll

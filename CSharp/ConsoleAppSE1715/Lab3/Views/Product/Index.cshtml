@@ -1,0 +1,98 @@
+﻿@using Lab3.Models;
+@model List<Product>
+@{
+}
+<!doctype html>
+<html>
+<head>
+    <title>First web app</title>
+    <style>
+        .active{
+            color: blue;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div style="float: left; width: 45%">
+        <a href="#"> Cart</a>
+        <ul>
+            <li><a href="/Product/Index">All Categories</a></li>
+            @foreach (Category c in ViewBag.categories)
+            {
+                <li><a href="/Product/Index/@c.CategoryId">@c.CategoryName</a></li>
+            }
+        </ul>
+
+    </div>
+    <div style="float: right; width: 55%">
+        <h3>Danh sach product</h3>
+        @if (Model != null && Model.Count != 0)
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <td>ProductId</td>
+                        <td>ProductName</td>
+                        <td>UnitPrice</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </thead>
+                @foreach (Product p in Model)
+                {
+                    <tr>
+                        <form action="/shoppingcart/addtocart" method="post">
+                            <td>@p.ProductId</td>
+                            <td>@p.ProductName</td>
+                            <td>@p.UnitPrice</td>
+                            <input value="@p.ProductId" type="hidden" name="id" /> 
+                            <td><input type="number" value="1" name="number" /></td>
+                            <td><button type="submit">Them vao gio hang</button></td>
+                        </form>
+                    </tr>
+                }
+            </table>
+        }
+        else
+        {
+            <h3>Khong co san pham nao yeu cau</h3>
+        }
+        <div class="page">
+            @if ((int)ViewData["numberPage"] > 1)
+            {
+                @for (int i = 1; i <= (int)ViewData["numberPage"]; i++)
+                {
+                    <a class="@((int)ViewData["currPage"] == @i ? "active" : "")" href="/Product/Index/@ViewData["CateId"]/@i">@i</a>
+                }
+            }
+        </div>
+
+        <h3>Danh sach order</h3>
+        @if ((List<Order>)ViewData["order"] != null && ((List<Order>)ViewData["order"]).Count != 0)
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <td>OrderId</td>
+                        <td>OrderDate</td>
+                        <td>ShipAddress</td>
+                    </tr>
+                </thead>
+                @foreach (Order order in (List<Order>)ViewData["order"])
+                {
+                    <tr>
+                        <td>@order.OrderId</td>
+                        <td>@order.OrderDate</td>
+                        <td>@order.ShipAddress</td>
+                    </tr>
+                }
+            </table>
+        }
+        else
+        {
+            <h3>Khong co san pham nao trong order</h3>
+        }
+    </div>
+</body>
+</html>

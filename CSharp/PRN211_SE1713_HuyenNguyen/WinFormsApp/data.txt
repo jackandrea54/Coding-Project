@@ -1,0 +1,2 @@
+a1	huyen	Japanese	3
+a4	hoen	Japanese	0

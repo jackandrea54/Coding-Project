@@ -1,0 +1,30 @@
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.csproj.AssemblyReference.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.AssemblyInfoInputs.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.AssemblyInfo.cs
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.csproj.CoreCompileInputs.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\bin\Debug\net6.0\OOP.exe
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\bin\Debug\net6.0\OOP.deps.json
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\bin\Debug\net6.0\OOP.runtimeconfig.json
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\bin\Debug\net6.0\OOP.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\bin\Debug\net6.0\OOP.pdb
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\refint\OOP.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.pdb
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.genruntimeconfig.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\ref\OOP.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\bin\Debug\net6.0\OOP.exe
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\bin\Debug\net6.0\OOP.deps.json
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\bin\Debug\net6.0\OOP.runtimeconfig.json
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\bin\Debug\net6.0\OOP.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\bin\Debug\net6.0\OOP.pdb
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.csproj.AssemblyReference.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.AssemblyInfoInputs.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.AssemblyInfo.cs
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.csproj.CoreCompileInputs.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\refint\OOP.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.pdb
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\OOP.genruntimeconfig.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\OOP\obj\Debug\net6.0\ref\OOP.dll

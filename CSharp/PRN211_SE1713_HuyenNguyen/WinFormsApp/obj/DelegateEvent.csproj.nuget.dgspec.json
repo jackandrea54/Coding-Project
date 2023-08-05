@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\FPT\\Term 5 SU23\\PRN211\\Projects\\PRN211_SE1713\\DelegateEvent\\DelegateEvent.csproj": {}
+  },
+  "projects": {
+    "D:\\FPT\\Term 5 SU23\\PRN211\\Projects\\PRN211_SE1713\\DelegateEvent\\DelegateEvent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FPT\\Term 5 SU23\\PRN211\\Projects\\PRN211_SE1713\\DelegateEvent\\DelegateEvent.csproj",
+        "projectName": "WinFormsApp",
+        "projectPath": "D:\\FPT\\Term 5 SU23\\PRN211\\Projects\\PRN211_SE1713\\DelegateEvent\\DelegateEvent.csproj",
+        "packagesPath": "C:\\Users\\laptop hp\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT\\Term 5 SU23\\PRN211\\Projects\\PRN211_SE1713\\WinFormsApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laptop hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

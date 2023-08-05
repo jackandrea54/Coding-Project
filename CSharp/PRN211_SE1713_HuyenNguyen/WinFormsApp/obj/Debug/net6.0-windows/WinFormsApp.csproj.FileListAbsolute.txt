@@ -1,0 +1,38 @@
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.exe
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.deps.json
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.runtimeconfig.json
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.pdb
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.csproj.AssemblyReference.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.Form1.resources
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.csproj.GenerateResource.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.AssemblyInfoInputs.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.AssemblyInfo.cs
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.csproj.CoreCompileInputs.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\refint\WinFormsApp.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.pdb
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.genruntimeconfig.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\ref\WinFormsApp.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.FrmStart.resources
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.FrmGenerateAuto.resources
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.exe
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.deps.json
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.runtimeconfig.json
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\bin\Debug\net6.0-windows\WinFormsApp.pdb
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.csproj.AssemblyReference.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.Form1.resources
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.FrmGenerateAuto.resources
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.FrmStart.resources
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.csproj.GenerateResource.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.AssemblyInfoInputs.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.AssemblyInfo.cs
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.csproj.CoreCompileInputs.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\refint\WinFormsApp.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.pdb
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.genruntimeconfig.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinFormsApp\obj\Debug\net6.0-windows\ref\WinFormsApp.dll

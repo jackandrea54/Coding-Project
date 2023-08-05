@@ -11,13 +11,13 @@ app.MapGet("/", () => "Hello World!");
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{Controller}/{Action}"
+    pattern: "{controller}/{action}"
     );
 
 
 app.MapControllerRoute(
     name: "course",
-    pattern: "{Controller}/{Action}/{id?}"
+    pattern: "{controller}/{action}/{id?}"
     );
 
 app.Run();

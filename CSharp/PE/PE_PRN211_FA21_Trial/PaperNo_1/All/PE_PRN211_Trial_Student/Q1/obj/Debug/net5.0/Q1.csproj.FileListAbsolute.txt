@@ -1,0 +1,32 @@
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.AssemblyInfo.cs
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\bin\Debug\net5.0\Q1.exe
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\bin\Debug\net5.0\Q1.deps.json
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\bin\Debug\net5.0\Q1.runtimeconfig.json
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\bin\Debug\net5.0\Q1.runtimeconfig.dev.json
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\bin\Debug\net5.0\Q1.dll
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\bin\Debug\net5.0\Q1.pdb
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.dll
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\refint\Q1.dll
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.pdb
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.genruntimeconfig.cache
+C:\Users\PC\Desktop\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\ref\Q1.dll
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\bin\Debug\net5.0\Q1.exe
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\bin\Debug\net5.0\Q1.deps.json
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\bin\Debug\net5.0\Q1.runtimeconfig.json
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\bin\Debug\net5.0\Q1.runtimeconfig.dev.json
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\bin\Debug\net5.0\Q1.dll
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\bin\Debug\net5.0\ref\Q1.dll
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\bin\Debug\net5.0\Q1.pdb
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.GeneratedMSBuildEditorConfig.editorconfig
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.AssemblyInfoInputs.cache
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.AssemblyInfo.cs
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.csproj.CoreCompileInputs.cache
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.dll
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\ref\Q1.dll
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.pdb
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.genruntimeconfig.cache
+E:\University_FPT\2021_PRN211\2022\PE\Test from Students\PE_PRN211_FA21_Trial\PaperNo_1\All\PE_PRN211_Trial_Student\Q1\obj\Debug\net5.0\Q1.csproj.AssemblyReference.cache

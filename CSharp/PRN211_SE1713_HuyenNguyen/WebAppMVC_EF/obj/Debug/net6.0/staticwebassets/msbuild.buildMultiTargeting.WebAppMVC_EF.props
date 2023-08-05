@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebAppMVC_EF.props" />
+</Project>

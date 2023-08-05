@@ -1,0 +1,112 @@
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\WinForms_EF.exe
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\WinForms_EF.deps.json
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\WinForms_EF.runtimeconfig.json
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\WinForms_EF.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\WinForms_EF.pdb
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Humanizer.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.csproj.AssemblyReference.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.Form1.resources
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.csproj.GenerateResource.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.AssemblyInfoInputs.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.AssemblyInfo.cs
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.csproj.CoreCompileInputs.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.csproj.CopyComplete
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\refint\WinForms_EF.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.pdb
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.genruntimeconfig.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\ref\WinForms_EF.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\WinForms_EF.exe
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\appsettings.json
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\WinForms_EF.deps.json
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\WinForms_EF.runtimeconfig.json
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\WinForms_EF.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\WinForms_EF.pdb
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Humanizer.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.csproj.AssemblyReference.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.Form1.resources
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.csproj.GenerateResource.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.AssemblyInfoInputs.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.AssemblyInfo.cs
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.csproj.CoreCompileInputs.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.csproj.CopyComplete
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\refint\WinForms_EF.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.pdb
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.genruntimeconfig.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\ref\WinForms_EF.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\WinForms_EF\obj\Debug\net6.0-windows\WinForms_EF.FrmCustomer.resources

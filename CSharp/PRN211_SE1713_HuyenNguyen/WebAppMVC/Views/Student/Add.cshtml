@@ -1,0 +1,18 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using WebAppMVC.Models
+@model Student //truyen tu view sang controller
+
+<form asp-controller="Student" asp-action="Add" method="post">
+    ID: <input type="text" asp-for="Code"></input>
+    <span asp-validation-for="Code"></span> <br />
+    Name: <input type="text" asp-for="Name"></input>
+    <span asp-validation-for="Name"></span><br />
+    Age: <input type="text" asp-for="Age"></input>
+    <span asp-validation-for="Age"></span><br />
+    <input type="submit" value="ADD"></input> <br />
+</form>

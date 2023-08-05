@@ -1,0 +1,37 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using Question2.Models;
+@model List<Order>
+
+@{
+}
+<!doctype html>
+<html>
+<head>
+    <title>First web app</title>
+    <style>
+        .active {
+            color: blue;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div style="float: Left; width: 35%">
+        <h3>Employees</h3>
+        <ul>
+            @foreach (Employee c in ViewBag.employees)
+            {
+                <li><a href="/Product/Index/@c.CategoryId">@c.CategoryName</a></li>
+            }
+        </ul>
+
+    </div>
+    <div style="float: Left; width: 65%">
+        <h3>List of Orders</h3>
+        
+
+    </div>
+</body>
+</html>

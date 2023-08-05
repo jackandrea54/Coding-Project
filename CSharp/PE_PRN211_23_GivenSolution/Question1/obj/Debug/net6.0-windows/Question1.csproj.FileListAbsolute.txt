@@ -1,0 +1,17 @@
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.exe
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.deps.json
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.runtimeconfig.json
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.dll
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.pdb
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.AssemblyReference.cache
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.Form1.resources
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.GenerateResource.cache
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfoInputs.cache
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfo.cs
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.CoreCompileInputs.cache
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.dll
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\refint\Question1.dll
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.pdb
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.genruntimeconfig.cache
+D:\Coding Project\CSharp\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\ref\Question1.dll

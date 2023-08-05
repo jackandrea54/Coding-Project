@@ -1,0 +1,47 @@
+﻿@using Lab3.Models;
+@model List<ShoppingCartItem>
+@{
+}
+<!doctype html>
+<html>
+<head>
+    <title>First web app</title>
+    
+</head>
+<body>
+    <a href="/Product/index">Trang chu</a>
+    <div >
+        <h3>Danh sach product</h3>
+        @if (Model != null && Model.Count != 0)
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <td>ProductId</td>
+                        <td>ProductName</td>
+                        <td>UnitPrice</td>
+                        <td>Quantity</td>
+                        <td>TotalMoney</td>
+                    </tr>
+                </thead>
+                @foreach (ShoppingCartItem p in Model)
+                {
+                    <tr>
+                        <td>@p.ProductId</td>
+                        <td>@p.ProductName</td>
+                        <td>@p.UnitPrice</td>
+                        <td>@p.Quantity</td>
+                        <td>@(p.Quantity * p.UnitPrice - p.UnitPrice * p.Quantity * p.Discount)</td>
+                    </tr>
+                }
+            </table>
+            <a href="/Shoppingcart/checkout">Checkout</a>
+        }
+        else
+        {
+            <h3>Khong co san pham nao yeu cau</h3>
+        }
+        
+    </div>
+</body>
+</html>

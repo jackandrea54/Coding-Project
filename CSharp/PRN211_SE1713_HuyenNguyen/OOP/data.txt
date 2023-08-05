@@ -1,0 +1,11 @@
+T01	Nguyen Van A	3600000	1
+T02	Tran Van B	1000000	1
+
+T03	Pham Thi C	2700000	1
+
+T04	hoen nguyen	9000000	0
+
+T05	Nguyen Van E	9000000	
+
+T01	Nguyen Van F 3600000	1
+T10	hoen do 9000000	0

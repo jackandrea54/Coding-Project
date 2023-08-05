@@ -41,21 +41,21 @@ namespace Lab2
             {
                 string studentId = textBox_ID.Text;
                 string name = textBox_Name.Text;
-                string gender = "";
+                string sex = "";
                 if (radioButton_Female.Checked)
                 {
-                    gender = "Female";
+                    sex = "Female";
                 }
                 else if (radioButton_Male.Checked)
                 {
-                    gender = "Male";
+                    sex = "Male";
                 }
                 DateTime dob = dateTimePicker_DOB.Value;
                 string major = ((Major)comboBox_MajorInTable.SelectedItem).MajorCode;
                 float scholarship = (float)listBox_Scholarship.SelectedItem;
                 bool isActive = checkBox_Active.Checked;
 
-                Student studentToInsert = new Student(studentId, name, gender, dob, major, scholarship, isActive);
+                Student studentToInsert = new Student(studentId, name, sex, dob, major, scholarship, isActive);
 
                 if (MessageBox.Show("Do you really want to insert student " + textBox_ID.Text,
                     "Confirm", MessageBoxButtons.YesNo) == DialogResult.Yes)

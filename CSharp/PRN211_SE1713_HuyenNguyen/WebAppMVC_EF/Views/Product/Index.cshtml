@@ -1,0 +1,58 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using WebAppMVC_EF.Models
+@model List<Product>
+List Categories:
+<form id="fr" asp-controller="Product" asp-action="Index" method="post">
+    <select name="categoryId" onchange="change()">
+        <option value="0">All</option>
+        @foreach (Category c in ViewBag.categories)
+        {
+            @if (c.CategoryId == ViewBag.selectedId)
+            {
+                <option value="@c.CategoryId" selected>@c.CategoryName</option>
+            } else
+            {
+                <option value="@c.CategoryId">@c.CategoryName</option>
+            }
+        }
+    </select>
+</form>
+
+<script>
+    const change = () => {
+        document.getElementById("fr").submit();
+    }
+</script>
+
+<br /> <a asp-controller="Product" asp-action="Add">Create new product</a>
+
+<br />
+<table border="1">
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Price</td>
+        <td>Stock</td>
+        <td>Image</td>
+        <td>Category</td>
+    </tr>
+    @foreach (Product p in Model)
+    {
+        <tr>
+            <td>@p.ProductId</td>
+            <td>@p.ProductName</td>
+            <td>@p.UnitPrice</td>
+            <td>@p.UnitsInStock</td>
+            <td>@p.Image</td>
+            <td>@p.Category.CategoryName</td>
+            <td><a asp-controller="Product" asp-action="Update" asp-route-id="@p.ProductId">Select</a></td>
+            <td><a asp-controller="Product" asp-action="Delete" asp-route-id="@p.ProductId">Delete</a></td>
+        </tr>
+    }
+</table>

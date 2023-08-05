@@ -21,6 +21,7 @@ D:\Coding Project\CSharp\ConsoleAppSE1715\WinFormsApp1\bin\Debug\net6.0-windows\
 D:\Coding Project\CSharp\ConsoleAppSE1715\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
 D:\Coding Project\CSharp\ConsoleAppSE1715\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
 D:\Coding Project\CSharp\ConsoleAppSE1715\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
+D:\Coding Project\CSharp\ConsoleAppSE1715\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.FilePractice.resources
 D:\Coding Project\CSharp\ConsoleAppSE1715\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
 D:\Coding Project\CSharp\ConsoleAppSE1715\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.GenerateResource.cache
 D:\Coding Project\CSharp\ConsoleAppSE1715\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig

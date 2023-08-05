@@ -1,0 +1,52 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using Q3.Models;
+@model List<Employee>
+
+@{
+}
+<!doctype html>
+<html>
+<head>
+    <title>First web app</title>
+    <style>
+        .active{
+            color: blue;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div style="float: right; width: 55%">
+        <h3>List of employees</h3>
+        @if (Model != null && Model.Count != 0)
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Sex</td>
+                        <td>Position</td>
+                        <td>Action</td>
+                    </tr>
+                </thead>
+                @foreach (Employee e in Model)
+                {
+                    <tr>
+                            <td>@e.Name</td>
+                            <td>@e.Sex</td>
+                            <td>@e.Position</td>
+                        <td><a href="/Employee/Delete/@e.Id">Delete</a></td>
+                    </tr>
+                }
+            </table>
+        }
+        else
+        {
+            <h3>Khong co san pham nao yeu cau</h3>
+        }
+       
+    </div>
+</body>
+</html>

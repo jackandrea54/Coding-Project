@@ -1,0 +1,30 @@
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\bin\Debug\net6.0\EventDemo.exe
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\bin\Debug\net6.0\EventDemo.deps.json
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\bin\Debug\net6.0\EventDemo.runtimeconfig.json
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\bin\Debug\net6.0\EventDemo.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\bin\Debug\net6.0\EventDemo.pdb
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.csproj.AssemblyReference.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.AssemblyInfoInputs.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.AssemblyInfo.cs
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.csproj.CoreCompileInputs.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\refint\EventDemo.dll
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.pdb
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.genruntimeconfig.cache
+D:\FPT\Term 5 SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\ref\EventDemo.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\bin\Debug\net6.0\EventDemo.exe
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\bin\Debug\net6.0\EventDemo.deps.json
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\bin\Debug\net6.0\EventDemo.runtimeconfig.json
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\bin\Debug\net6.0\EventDemo.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\bin\Debug\net6.0\EventDemo.pdb
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.csproj.AssemblyReference.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.AssemblyInfoInputs.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.AssemblyInfo.cs
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.csproj.CoreCompileInputs.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\refint\EventDemo.dll
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.pdb
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\EventDemo.genruntimeconfig.cache
+D:\FPT\Term_5_SU23\PRN211\Projects\PRN211_SE1713\EventDemo\obj\Debug\net6.0\ref\EventDemo.dll

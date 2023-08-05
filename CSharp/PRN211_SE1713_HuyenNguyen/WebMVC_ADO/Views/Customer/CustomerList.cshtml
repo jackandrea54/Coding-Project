@@ -1,0 +1,112 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    string addressToSearch = ViewBag.AddressToSearch;
+    string genderToSearch = ViewBag.GenderToSearch;
+    string sortCriteria = ViewBag.SortCriteria;
+}
+@using WebMVC_ADO.Models
+@model List<Customer>
+<form asp-controller="Customer" asp-action="List" method="post">
+    Address:
+    <br />
+    <select name="addressToSearch">
+        @if (ViewBag.AddressToSearch == "Hà Nội")
+        {
+            <option value="Hà Nội" selected>Hà Nội</option>
+        }
+        else
+        {
+            <option value="Hà Nội">Hà Nội</option>
+        }
+        @if (ViewBag.AddressToSearch == "Lào Cai")
+        {
+            <option value="Lào Cai" selected>Lào Cai</option>
+        }
+        else
+        {
+            <option value="Lào Cai">Lào Cai</option>
+        }
+        @if (ViewBag.AddressToSearch == "Hà Nam")
+        {
+            <option value="Hà Nam" selected>Hà Nam</option>
+        }
+        else
+        {
+            <option value="Hà Nam">Hà Nam</option>
+        }
+    </select>
+    <br />
+    Gender
+    <br />
+    <select name="genderToSearch">
+        @if (ViewBag.GenderToSearch == "1")
+        {
+            <option value="1" selected>Nam</option>
+            <option value="0">Nữ</option>
+        }
+        else
+        {
+            <option value="1">Nam</option>
+            <option value="0" selected>Nữ</option>
+        }
+    </select>
+    <br />
+    Sort by
+    <br />
+    Id
+    @if (ViewBag.SortCriteria == "CustomerId")
+    {
+        <input type="radio" name="sortCriteria" value="CustomerId" checked />
+    }
+    else
+    {
+        <input type="radio" name="sortCriteria" value="CustomerId" />
+    }
+    Name
+    @if (ViewBag.SortCriteria == "CustomerName")
+    {
+        <input type="radio" name="sorxtCriteria" value="CustomerName" checked />
+    }
+    else
+    {
+        <input type="radio" name="sortCriteria" value="CustomerName" />
+    }
+
+    Dob
+    @if (ViewBag.SortCriteria == "Birthdate")
+    {
+        <input type="radio" name="sortCriteria" value="Birthdate" checked />
+    }
+    else
+    {
+        <input type="radio" name="sortCriteria" value="Birthdate" />
+    }
+    <br />
+    <input type="submit" value="Filter" />
+</form>
+
+<table border="1">
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>DOB</td>
+        <td>Gender</td>
+        <td>Address</td>
+
+    </tr>
+    @foreach (Customer c in Model)
+    {
+        <tr>
+            <td>@c.ID</td>
+            <td>@c.Name</td>
+            <td>@c.Dob</td>
+            <td>@c.Gender</td>
+            <td>@c.Address</td>
+        </tr>
+    }
+</table>
+
